@@ -1,0 +1,8 @@
+"ID";"Bezeichner";"Gehäuse";"Stückzahl";"Bezeichnung";"Anbieter und Referenz";
+1;"U4,U3,U2,U1";"non_plated_3mm";4;"non_plated";;;
+2;"Q2";"TO-263-2";1;"Q_NIGBT_GCE";;;
+3;"P1";"RM3.5_1x2";1;"CONN_01X02";;;
+4;"P2,P3";"RM5.08_1x2";2;"CONN_01X02";;;
+5;"Q1";"SOT-23";1;"MMBF170";;;
+6;"R1";"C_1206";1;"220";;;
+7;"R2";"C_0805";1;"5k";;;

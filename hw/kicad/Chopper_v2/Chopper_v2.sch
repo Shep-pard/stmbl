@@ -1,0 +1,1000 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L stmbl_4.0-rescue:D-stmbl D4
+U 1 1 56657C30
+P 3150 2150
+F 0 "D4" H 3150 2250 50  0000 C CNN
+F 1 "ES1J R2" H 3150 2050 50  0000 C CNN
+F 2 "stmbl:SMA_Standard" H 3150 2150 60  0001 C CNN
+F 3 "" H 3150 2150 60  0000 C CNN
+F 4 "" H 3150 2150 60  0001 C CNN "InternalName"
+F 5 "ES1J-LTP" H 3150 2150 60  0001 C CNN "Manufacturer No"
+F 6 "" H 3150 2150 60  0001 C CNN "Voltage"
+F 7 "" H 3150 2150 60  0001 C CNN "Source"
+F 8 "" H 3150 2150 60  0001 C CNN "Tolerance"
+F 9 "" H -3250 -2100 50  0001 C CNN "Description"
+F 10 "Micro Commercial Co" H -3250 -2100 50  0001 C CNN "Manufacturer"
+	1    3150 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L stmbl_4.0-rescue:D-stmbl D5
+U 1 1 56657CAE
+P 3600 1000
+F 0 "D5" H 3600 1100 50  0000 C CNN
+F 1 "ES1J R2" H 3600 900 50  0000 C CNN
+F 2 "stmbl:SMA_Standard" H 3600 1000 60  0001 C CNN
+F 3 "" H 3600 1000 60  0000 C CNN
+F 4 "" H 3600 1000 60  0001 C CNN "InternalName"
+F 5 "ES1J-LTP" H 3600 1000 60  0001 C CNN "Manufacturer No"
+F 6 "" H 3600 1000 60  0001 C CNN "Voltage"
+F 7 "" H 3600 1000 60  0001 C CNN "Source"
+F 8 "" H 3600 1000 60  0001 C CNN "Tolerance"
+F 9 "" H -3600 -2750 50  0001 C CNN "Description"
+F 10 "Micro Commercial Co" H -3600 -2750 50  0001 C CNN "Manufacturer"
+	1    3600 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:INDUCTOR-stmbl L1
+U 1 1 56657DB8
+P 3550 1900
+F 0 "L1" V 3500 1900 50  0000 C CNN
+F 1 "1m 250mA" V 3650 1900 50  0000 C CNN
+F 2 "stmbl:NPI31W" H 3550 1900 60  0001 C CNN
+F 3 "" H 3550 1900 60  0000 C CNN
+F 4 "" H 3550 1900 60  0001 C CNN "InternalName"
+F 5 "DT3316P-105" H 3550 1900 60  0001 C CNN "Manufacturer No"
+F 6 "" H 3550 1900 60  0001 C CNN "Voltage"
+F 7 "" H 3550 1900 60  0001 C CNN "Source"
+F 8 "" H 3550 1900 60  0001 C CNN "Tolerance"
+F 9 "" H -3250 -2100 50  0001 C CNN "Description"
+F 10 "Coilcraft" H -3250 -2100 50  0001 C CNN "Manufacturer"
+	1    3550 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stmbl_4.0-rescue:C-stmbl C8
+U 1 1 56657F29
+P 3950 2150
+F 0 "C8" H 3975 2250 50  0000 L CNN
+F 1 "100n" H 3975 2050 50  0000 L CNN
+F 2 "stmbl:C_0603" H 3988 2000 30  0001 C CNN
+F 3 "" H 3950 2150 60  0000 C CNN
+F 4 "50V" H 3950 2150 60  0001 C CNN "Voltage"
+F 5 "" H 3950 2150 60  0001 C CNN "InternalName"
+F 6 "" H 3950 2150 60  0001 C CNN "Manufacturer No"
+F 7 "" H 3950 2150 60  0001 C CNN "Source"
+F 8 "X5R" H 3950 2150 60  0001 C CNN "Tolerance"
+F 9 "" H -3250 -2100 50  0001 C CNN "Description"
+F 10 "" H -3250 -2100 50  0001 C CNN "Manufacturer"
+	1    3950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:GNDPWR-stmbl #PWR042
+U 1 1 56659A1F
+P 4950 2550
+F 0 "#PWR042" H 4950 2350 50  0001 C CNN
+F 1 "GNDPWR" H 4950 2420 50  0000 C CNN
+F 2 "" H 4950 2500 60  0000 C CNN
+F 3 "" H 4950 2500 60  0000 C CNN
+	1    4950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:+15V-stmbl #PWR043
+U 1 1 56659B14
+P 4950 1800
+F 0 "#PWR043" H 4950 1650 50  0001 C CNN
+F 1 "+15V" H 4950 1940 50  0000 C CNN
+F 2 "" H 4950 1800 60  0000 C CNN
+F 3 "" H 4950 1800 60  0000 C CNN
+	1    4950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:VPP-stmbl #PWR044
+U 1 1 56659BEB
+P 700 950
+F 0 "#PWR044" H 700 800 50  0001 C CNN
+F 1 "VPP" H 700 1100 50  0000 C CNN
+F 2 "" H 700 950 60  0000 C CNN
+F 3 "" H 700 950 60  0000 C CNN
+	1    700  950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:C-stmbl C10
+U 1 1 5774AD7A
+P 3150 1650
+F 0 "C10" H 3175 1750 50  0000 L CNN
+F 1 "10µ" H 3175 1550 50  0000 L CNN
+F 2 "stmbl:C_0805" H 3188 1500 30  0001 C CNN
+F 3 "" H 3150 1650 60  0000 C CNN
+F 4 "25V" H 3150 1650 60  0001 C CNN "Voltage"
+F 5 "" H 3150 1650 60  0001 C CNN "InternalName"
+F 6 "" H 3150 1650 60  0001 C CNN "Manufacturer No"
+F 7 "" H 3150 1650 60  0001 C CNN "Source"
+F 8 "X5R" H 3150 1650 60  0001 C CNN "Tolerance"
+F 9 "" H -3250 -2100 50  0001 C CNN "Description"
+F 10 "" H -3250 -2100 50  0001 C CNN "Manufacturer"
+	1    3150 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:C-stmbl C11
+U 1 1 5774B2A5
+P 2000 1650
+F 0 "C11" H 2025 1750 50  0000 L CNN
+F 1 "100n" H 2025 1550 50  0000 L CNN
+F 2 "stmbl:C_0603" H 2038 1500 30  0001 C CNN
+F 3 "" H 2000 1650 60  0000 C CNN
+F 4 "50V" H 2000 1650 60  0001 C CNN "Voltage"
+F 5 "" H 2000 1650 60  0001 C CNN "InternalName"
+F 6 "" H 2000 1650 60  0001 C CNN "Manufacturer No"
+F 7 "" H 2000 1650 60  0001 C CNN "Source"
+F 8 "X5R" H 2000 1650 60  0001 C CNN "Tolerance"
+F 9 "" H -3250 -2100 50  0001 C CNN "Description"
+F 10 "" H -3250 -2100 50  0001 C CNN "Manufacturer"
+	1    2000 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 2450
+Wire Wire Line
+	3150 2450 3150 2300
+Wire Wire Line
+	3950 2300 3950 2450
+Connection ~ 3950 1900
+Wire Wire Line
+	1700 1900 1800 1900
+Wire Wire Line
+	1700 1600 1800 1600
+Wire Wire Line
+	1800 1600 1800 1700
+Connection ~ 1800 1900
+Wire Wire Line
+	1700 1700 1800 1700
+Connection ~ 1800 1700
+Wire Wire Line
+	1700 1800 1800 1800
+Connection ~ 1800 1800
+Wire Wire Line
+	3150 1800 3150 1900
+Connection ~ 3150 1900
+Wire Wire Line
+	2000 1800 2000 1900
+Connection ~ 2000 1900
+Wire Wire Line
+	2000 1500 2000 1400
+Wire Wire Line
+	2000 1400 1700 1400
+$Comp
+L stmbl_4.0-rescue:R-stmbl R8
+U 1 1 5774B784
+P 2350 1650
+F 0 "R8" V 2430 1650 50  0000 C CNN
+F 1 "2.2k" V 2350 1650 50  0000 C CNN
+F 2 "stmbl:R_0805" V 2280 1650 30  0001 C CNN
+F 3 "" H 2350 1650 30  0000 C CNN
+F 4 "" H 2350 1650 30  0001 C CNN "InternalName"
+F 5 "" H 2350 1650 30  0001 C CNN "Manufacturer No"
+F 6 "" H 2350 1650 30  0001 C CNN "Voltage"
+F 7 "" H 2350 1650 30  0001 C CNN "Source"
+F 8 "1%" H 2350 1650 30  0001 C CNN "Tolerance"
+F 9 "" H -3250 -2100 50  0001 C CNN "Description"
+F 10 "" H -3250 -2100 50  0001 C CNN "Manufacturer"
+	1    2350 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L stmbl_4.0-rescue:R-stmbl R7
+U 1 1 5774BB53
+P 2650 1000
+F 0 "R7" V 2750 1000 50  0000 C CNN
+F 1 "18k" V 2650 1000 50  0000 C CNN
+F 2 "stmbl:R_0805" V 2580 1000 30  0001 C CNN
+F 3 "" H 2650 1000 30  0000 C CNN
+F 4 "" H 2650 1000 30  0001 C CNN "InternalName"
+F 5 "" H 2650 1000 30  0001 C CNN "Manufacturer No"
+F 6 "" H 2650 1000 30  0001 C CNN "Voltage"
+F 7 "" H 2650 1000 30  0001 C CNN "Source"
+F 8 "1%" H 2650 1000 30  0001 C CNN "Tolerance"
+F 9 "" H -3900 -2100 50  0001 C CNN "Description"
+F 10 "" H -3900 -2100 50  0001 C CNN "Manufacturer"
+	1    2650 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	900  1000 900  1400
+Wire Wire Line
+	900  1400 1000 1400
+Wire Wire Line
+	700  1600 1000 1600
+$Comp
+L stmbl_4.0-rescue:LED-stmbl D2
+U 1 1 57752985
+P 700 4450
+F 0 "D2" H 700 4550 50  0000 C CNN
+F 1 "green" H 700 4350 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" H 700 4450 50  0001 C CNN
+F 3 "" H 700 4450 50  0000 C CNN
+F 4 "" H 700 4450 50  0001 C CNN "InternalName"
+F 5 "LTST-S220KGKT" H 700 4450 50  0001 C CNN "Manufacturer No"
+F 6 "" H 700 4450 50  0001 C CNN "Voltage"
+F 7 "" H 700 4450 50  0001 C CNN "Source"
+F 8 "" H 700 4450 50  0001 C CNN "Tolerance"
+F 9 "" H -8600 100 50  0001 C CNN "Description"
+F 10 "Lite-On" H -8600 100 50  0001 C CNN "Manufacturer"
+	1    700  4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stmbl_4.0-rescue:GNDPWR-stmbl #PWR045
+U 1 1 57752AE5
+P 700 4750
+F 0 "#PWR045" H 700 4550 50  0001 C CNN
+F 1 "GNDPWR" H 700 4620 50  0000 C CNN
+F 2 "" H 700 4700 60  0000 C CNN
+F 3 "" H 700 4700 60  0000 C CNN
+	1    700  4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:R-stmbl R5
+U 1 1 57752B29
+P 700 4000
+F 0 "R5" V 780 4000 50  0000 C CNN
+F 1 "2.2k" V 700 4000 50  0000 C CNN
+F 2 "stmbl:R_0805" V 630 4000 30  0001 C CNN
+F 3 "" H 700 4000 30  0000 C CNN
+F 4 "" H 700 4000 30  0001 C CNN "InternalName"
+F 5 "" H 700 4000 30  0001 C CNN "Manufacturer No"
+F 6 "" H 700 4000 30  0001 C CNN "Voltage"
+F 7 "" H 700 4000 30  0001 C CNN "Source"
+F 8 "1%" H 700 4000 30  0001 C CNN "Tolerance"
+F 9 "" H -8600 100 50  0001 C CNN "Description"
+F 10 "" H -8600 100 50  0001 C CNN "Manufacturer"
+	1    700  4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:+15V-stmbl #PWR046
+U 1 1 57752BA2
+P 700 3650
+F 0 "#PWR046" H 700 3500 50  0001 C CNN
+F 1 "+15V" H 700 3750 50  0000 C CNN
+F 2 "" H 700 3650 60  0000 C CNN
+F 3 "" H 700 3650 60  0000 C CNN
+	1    700  3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  4150 700  4250
+Wire Wire Line
+	700  4650 700  4750
+Wire Wire Line
+	4950 1800 4950 1900
+Connection ~ 4950 1900
+Wire Wire Line
+	4950 2300 4950 2450
+Connection ~ 4950 2450
+Wire Wire Line
+	4700 1900 4700 2000
+Connection ~ 4700 1900
+Wire Wire Line
+	4200 1900 4200 2000
+Connection ~ 4200 1900
+Wire Wire Line
+	4200 2450 4200 2300
+Connection ~ 4200 2450
+Wire Wire Line
+	4700 2450 4700 2300
+Connection ~ 4700 2450
+$Comp
+L stmbl_4.0-rescue:lnk304D-stmbl U5
+U 1 1 57F9295B
+P 1350 1500
+F 0 "U5" H 1250 1700 60  0000 C CNN
+F 1 "LNK304D" H 1350 1000 60  0000 C CNN
+F 2 "stmbl:SOIC-7" H 1350 1500 60  0000 C CNN
+F 3 "" H 1350 1500 60  0000 C CNN
+F 4 "LNK304DN" H 1350 1500 50  0001 C CNN "Manufacturer No"
+F 5 "" H 1350 1500 60  0001 C CNN "InternalName"
+F 6 "" H 1350 1500 60  0001 C CNN "Voltage"
+F 7 "" H 1350 1500 60  0001 C CNN "Source"
+F 8 "" H 1350 1500 60  0001 C CNN "Tolerance"
+F 9 "" H -3250 -2100 50  0001 C CNN "Description"
+F 10 "Power Integrations" H -3250 -2100 50  0001 C CNN "Manufacturer"
+	1    1350 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:C-stmbl C9
+U 1 1 58068ABB
+P 700 2300
+F 0 "C9" H 725 2400 50  0000 L CNN
+F 1 "150n" H 725 2200 50  0000 L CNN
+F 2 "stmbl:C_1808" H 738 2150 30  0001 C CNN
+F 3 "" H 700 2300 60  0000 C CNN
+F 4 "" H 700 2300 60  0001 C CNN "InternalName"
+F 5 "C1808W154KCRACTU" H 700 2300 60  0001 C CNN "Manufacturer No"
+F 6 "500V" H 700 2300 60  0001 C CNN "Voltage"
+F 7 "" H 700 2300 60  0001 C CNN "Source"
+F 8 "X7R" H 700 2300 60  0001 C CNN "Tolerance"
+F 9 "" H -3250 -2100 50  0001 C CNN "Description"
+F 10 "KEMET" H -3250 -2100 50  0001 C CNN "Manufacturer"
+	1    700  2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:GNDPWR-stmbl #PWR050
+U 1 1 5806941B
+P 700 2550
+F 0 "#PWR050" H 700 2350 50  0001 C CNN
+F 1 "GNDPWR" H 700 2420 50  0000 C CNN
+F 2 "" H 700 2500 60  0000 C CNN
+F 3 "" H 700 2500 60  0000 C CNN
+	1    700  2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  2450 700  2550
+Wire Wire Line
+	900  1000 2350 1000
+Text Notes 1600 700  0    60   ~ 0
+1.65V * (18k + 2.2k)/2.2k = 15.15V
+$Comp
+L stmbl_4.0-rescue:C-stmbl C5
+U 1 1 58254B38
+P 4700 2150
+F 0 "C5" H 4725 2250 50  0000 L CNN
+F 1 "10µ" H 4725 2050 50  0000 L CNN
+F 2 "stmbl:C_0805" H 4738 2000 30  0001 C CNN
+F 3 "" H 4700 2150 60  0000 C CNN
+F 4 "25V" H 4700 2150 60  0001 C CNN "Voltage"
+F 5 "" H 4700 2150 60  0001 C CNN "InternalName"
+F 6 "" H 4700 2150 60  0001 C CNN "Manufacturer No"
+F 7 "" H 4700 2150 60  0001 C CNN "Source"
+F 8 "X5R" H 4700 2150 60  0001 C CNN "Tolerance"
+F 9 "" H -3250 -2100 50  0001 C CNN "Description"
+F 10 "" H -3250 -2100 50  0001 C CNN "Manufacturer"
+	1    4700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:C-stmbl C7
+U 1 1 582564B2
+P 4200 2150
+F 0 "C7" H 4225 2250 50  0000 L CNN
+F 1 "10µ" H 4225 2050 50  0000 L CNN
+F 2 "stmbl:C_0805" H 4238 2000 30  0001 C CNN
+F 3 "" H 4200 2150 60  0000 C CNN
+F 4 "25V" H 4200 2150 60  0001 C CNN "Voltage"
+F 5 "" H 4200 2150 60  0001 C CNN "InternalName"
+F 6 "" H 4200 2150 60  0001 C CNN "Manufacturer No"
+F 7 "" H 4200 2150 60  0001 C CNN "Source"
+F 8 "X5R" H 4200 2150 60  0001 C CNN "Tolerance"
+F 9 "" H -3250 -2100 50  0001 C CNN "Description"
+F 10 "" H -3250 -2100 50  0001 C CNN "Manufacturer"
+	1    4200 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1900 3950 1900
+Wire Wire Line
+	3150 2450 3950 2450
+Wire Wire Line
+	4450 2000 4450 1900
+Connection ~ 4450 1900
+Wire Wire Line
+	4450 2300 4450 2450
+Connection ~ 4450 2450
+$Comp
+L stmbl_4.0-rescue:R-stmbl R6
+U 1 1 5886A2CE
+P 5450 2150
+F 0 "R6" V 5530 2150 50  0000 C CNN
+F 1 "3.9k" V 5450 2150 50  0000 C CNN
+F 2 "stmbl:R_0805" V 5380 2150 30  0001 C CNN
+F 3 "" H 5450 2150 30  0000 C CNN
+F 4 "" H 5450 2150 30  0001 C CNN "InternalName"
+F 5 "" H 5450 2150 30  0001 C CNN "Manufacturer No"
+F 6 "" H 5450 2150 30  0001 C CNN "Voltage"
+F 7 "" H 5450 2150 30  0001 C CNN "Source"
+F 8 "1%" H 5450 2150 30  0001 C CNN "Tolerance"
+F 9 "" H -3250 -2100 50  0001 C CNN "Description"
+F 10 "" H -3250 -2100 50  0001 C CNN "Manufacturer"
+	1    5450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:C-stmbl C6
+U 1 1 5886B864
+P 4450 2150
+F 0 "C6" H 4475 2250 50  0000 L CNN
+F 1 "10µ" H 4475 2050 50  0000 L CNN
+F 2 "stmbl:C_0805" H 4488 2000 30  0001 C CNN
+F 3 "" H 4450 2150 60  0000 C CNN
+F 4 "25V" H 4450 2150 60  0001 C CNN "Voltage"
+F 5 "" H 4450 2150 60  0001 C CNN "InternalName"
+F 6 "" H 4450 2150 60  0001 C CNN "Manufacturer No"
+F 7 "" H 4450 2150 60  0001 C CNN "Source"
+F 8 "X5R" H 4450 2150 60  0001 C CNN "Tolerance"
+F 9 "" H -3250 -2100 50  0001 C CNN "Description"
+F 10 "" H -3250 -2100 50  0001 C CNN "Manufacturer"
+	1    4450 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2300 5200 2450
+Wire Wire Line
+	5200 2000 5200 1900
+Connection ~ 2350 1900
+Wire Wire Line
+	2350 1900 2350 1800
+Wire Wire Line
+	3950 2450 4200 2450
+Wire Wire Line
+	3950 1900 3950 2000
+Wire Wire Line
+	3950 1900 4200 1900
+Wire Wire Line
+	1800 1900 2000 1900
+Wire Wire Line
+	1800 1700 1800 1800
+Wire Wire Line
+	1800 1800 1800 1900
+Wire Wire Line
+	3150 1900 3150 2000
+Wire Wire Line
+	3150 1900 3250 1900
+Wire Wire Line
+	2000 1900 2350 1900
+Wire Wire Line
+	4950 1900 4950 2000
+Wire Wire Line
+	4950 1900 5200 1900
+Wire Wire Line
+	4950 2450 4950 2550
+Wire Wire Line
+	4950 2450 5200 2450
+Wire Wire Line
+	4700 1900 4950 1900
+Wire Wire Line
+	4200 1900 4450 1900
+Wire Wire Line
+	4200 2450 4450 2450
+Wire Wire Line
+	4700 2450 4950 2450
+Wire Wire Line
+	4450 1900 4700 1900
+Wire Wire Line
+	4450 2450 4700 2450
+Wire Wire Line
+	2350 1900 3150 1900
+$Comp
+L stmbl_4.0-rescue:C-stmbl C4
+U 1 1 5B1EE673
+P 4950 2150
+F 0 "C4" H 4975 2250 50  0000 L CNN
+F 1 "1µ" H 4975 2050 50  0000 L CNN
+F 2 "stmbl:C_0805" H 4988 2000 30  0001 C CNN
+F 3 "" H 4950 2150 60  0000 C CNN
+F 4 "25V" H 4950 2150 60  0001 C CNN "Voltage"
+F 5 "" H 4950 2150 60  0001 C CNN "InternalName"
+F 6 "" H 4950 2150 60  0001 C CNN "Manufacturer No"
+F 7 "" H 4950 2150 60  0001 C CNN "Source"
+F 8 "X5R" H 4950 2150 60  0001 C CNN "Tolerance"
+F 9 "" H -3250 -2100 50  0001 C CNN "Description"
+F 10 "" H -3250 -2100 50  0001 C CNN "Manufacturer"
+	1    4950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:C-stmbl C3
+U 1 1 5B1EE7AD
+P 5200 2150
+F 0 "C3" H 5225 2250 50  0000 L CNN
+F 1 "10µ" H 5225 2050 50  0000 L CNN
+F 2 "stmbl:C_0805" H 5238 2000 30  0001 C CNN
+F 3 "" H 5200 2150 60  0000 C CNN
+F 4 "25V" H 5200 2150 60  0001 C CNN "Voltage"
+F 5 "" H 5200 2150 60  0001 C CNN "InternalName"
+F 6 "" H 5200 2150 60  0001 C CNN "Manufacturer No"
+F 7 "" H 5200 2150 60  0001 C CNN "Source"
+F 8 "X5R" H 5200 2150 60  0001 C CNN "Tolerance"
+F 9 "" H -3250 -2100 50  0001 C CNN "Description"
+F 10 "" H -3250 -2100 50  0001 C CNN "Manufacturer"
+	1    5200 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2450 5450 2450
+Wire Wire Line
+	5450 2450 5450 2300
+Connection ~ 5200 2450
+Wire Wire Line
+	5200 1900 5450 1900
+Wire Wire Line
+	5450 1900 5450 2000
+Connection ~ 5200 1900
+$Comp
+L stmbl:CONN_01X02 P1
+U 1 1 5E287A20
+P 1450 3600
+F 0 "P1" H 1367 3325 50  0000 C CNN
+F 1 "CONN_01X02" H 1367 3416 50  0000 C CNN
+F 2 "stmbl:RM5.08_1x2" H 1450 3600 50  0001 C CNN
+F 3 "" H 1450 3600 50  0000 C CNN
+	1    1450 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L stmbl:CONN_01X02 P2
+U 1 1 5E28A62D
+P 1450 4200
+F 0 "P2" H 1367 3925 50  0000 C CNN
+F 1 "CONN_01X02" H 1367 4016 50  0000 C CNN
+F 2 "stmbl:RM3.5_1x2" H 1450 4200 50  0001 C CNN
+F 3 "" H 1450 4200 50  0000 C CNN
+	1    1450 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L stmbl:CONN_01X02 P3
+U 1 1 5E28D113
+P 5650 3950
+F 0 "P3" H 5567 3675 50  0000 C CNN
+F 1 "CONN_01X02" H 5600 4150 50  0000 C CNN
+F 2 "stmbl:RM5.08_1x2" H 5650 3950 50  0001 C CNN
+F 3 "" H 5650 3950 50  0000 C CNN
+	1    5650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:VPP-stmbl #PWR0101
+U 1 1 5E28F07D
+P 2100 3650
+F 0 "#PWR0101" H 2100 3500 50  0001 C CNN
+F 1 "VPP" H 2100 3800 50  0000 C CNN
+F 2 "" H 2100 3650 60  0000 C CNN
+F 3 "" H 2100 3650 60  0000 C CNN
+	1    2100 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_IGBT:IRG4PF50W Q1
+U 1 1 5E296D28
+P 4850 4450
+F 0 "Q1" H 5041 4496 50  0000 L CNN
+F 1 "STGB19NC60KDT4" H 5041 4405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 5050 4375 50  0000 L CIN
+F 3 "https://www.st.com/resource/en/datasheet/stgb19nc60kdt4.pdf" H 4850 4450 50  0001 L CNN
+	1    4850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:VPP-stmbl #PWR0102
+U 1 1 5E29A53F
+P 5450 3650
+F 0 "#PWR0102" H 5450 3500 50  0001 C CNN
+F 1 "VPP" H 5450 3800 50  0000 C CNN
+F 2 "" H 5450 3650 60  0000 C CNN
+F 3 "" H 5450 3650 60  0000 C CNN
+	1    5450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4000 4950 4250
+Wire Wire Line
+	1800 3550 1800 3450
+$Comp
+L stmbl_4.0-rescue:GNDPWR-stmbl #PWR0103
+U 1 1 5E2913FD
+P 1800 3450
+F 0 "#PWR0103" H 1800 3250 50  0001 C CNN
+F 1 "GNDPWR" H 1800 3320 50  0000 C CNN
+F 2 "" H 1800 3400 60  0000 C CNN
+F 3 "" H 1800 3400 60  0000 C CNN
+	1    1800 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 4650 4950 4750
+$Comp
+L stmbl_4.0-rescue:GNDPWR-stmbl #PWR0104
+U 1 1 5E2A24BC
+P 4950 4750
+F 0 "#PWR0104" H 4950 4550 50  0001 C CNN
+F 1 "GNDPWR" H 4950 4620 50  0000 C CNN
+F 2 "" H 4950 4700 60  0000 C CNN
+F 3 "" H 4950 4700 60  0000 C CNN
+	1    4950 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_FET:ACPL-P343 U1
+U 1 1 5E2A4FD0
+P 2950 4450
+F 0 "U1" H 2950 4967 50  0000 C CNN
+F 1 "ACPL-P343" H 2950 4876 50  0000 C CNN
+F 2 "Package_SO:SSO-6_6.8x4.6mm_P1.27mm_Clearance7mm" H 2950 4050 50  0001 C CIN
+F 3 "https://docs.broadcom.com/docs/AV02-2928EN" H 2860 4455 50  0001 L CNN
+	1    2950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:GNDPWR-stmbl #PWR0105
+U 1 1 5E2A9C6A
+P 3450 4900
+F 0 "#PWR0105" H 3450 4700 50  0001 C CNN
+F 1 "GNDPWR" H 3450 4770 50  0000 C CNN
+F 2 "" H 3450 4850 60  0000 C CNN
+F 3 "" H 3450 4850 60  0000 C CNN
+	1    3450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:+15V-stmbl #PWR0106
+U 1 1 5E2AB8FB
+P 3450 4000
+F 0 "#PWR0106" H 3450 3850 50  0001 C CNN
+F 1 "+15V" H 3450 4140 50  0000 C CNN
+F 2 "" H 3450 4000 60  0000 C CNN
+F 3 "" H 3450 4000 60  0000 C CNN
+	1    3450 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 4150 3450 4150
+Wire Wire Line
+	3450 4000 3450 4150
+Wire Wire Line
+	3450 4750 3350 4750
+Wire Wire Line
+	3450 4750 3450 4900
+$Comp
+L stmbl:R R2
+U 1 1 5E290C05
+P 3950 4450
+F 0 "R2" V 3743 4450 50  0000 C CNN
+F 1 "6" V 3834 4450 50  0000 C CNN
+F 2 "stmbl:R_2512" V 3880 4450 50  0001 C CNN
+F 3 "" H 3950 4450 50  0000 C CNN
+	1    3950 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 4450 4150 4450
+$Comp
+L stmbl:R R3
+U 1 1 5E29E501
+P 4150 4650
+F 0 "R3" H 4080 4604 50  0000 R CNN
+F 1 "2.2k" H 4080 4695 50  0000 R CNN
+F 2 "stmbl:R_0805" V 4080 4650 50  0001 C CNN
+F 3 "" H 4150 4650 50  0000 C CNN
+	1    4150 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L stmbl_4.0-rescue:GNDPWR-stmbl #PWR0107
+U 1 1 5E29FB46
+P 4150 4900
+F 0 "#PWR0107" H 4150 4700 50  0001 C CNN
+F 1 "GNDPWR" H 4150 4770 50  0000 C CNN
+F 2 "" H 4150 4850 60  0000 C CNN
+F 3 "" H 4150 4850 60  0000 C CNN
+	1    4150 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4500 4150 4450
+Connection ~ 4150 4450
+Wire Wire Line
+	4150 4800 4150 4900
+$Comp
+L stmbl:R R1
+U 1 1 5E2AB17B
+P 2200 4150
+F 0 "R1" V 1993 4150 50  0000 C CNN
+F 1 "1.2k" V 2084 4150 50  0000 C CNN
+F 2 "stmbl:R_0805" V 2130 4150 50  0001 C CNN
+F 3 "" H 2200 4150 50  0000 C CNN
+	1    2200 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 4150 2400 4150
+Wire Wire Line
+	2050 4150 1650 4150
+Wire Wire Line
+	2550 4750 2400 4750
+Wire Wire Line
+	1900 4750 1900 4250
+Wire Wire Line
+	1900 4250 1650 4250
+$Comp
+L stmbl:CP C1
+U 1 1 5E2CC4FB
+P 5750 2150
+F 0 "C1" H 5868 2196 50  0000 L CNN
+F 1 "10uF" H 5868 2105 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 5788 2000 50  0001 C CNN
+F 3 "" H 5750 2150 50  0000 C CNN
+F 4 "80-T491C106K20AT7280" H 5750 2150 50  0001 C CNN "Feld4"
+	1    5750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl:CP C2
+U 1 1 5E2CE568
+P 6150 2150
+F 0 "C2" H 6268 2196 50  0000 L CNN
+F 1 "10uF" H 6268 2105 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 6188 2000 50  0001 C CNN
+F 3 "" H 6150 2150 50  0000 C CNN
+F 4 "80-T491C106K20AT7280" H 6150 2150 50  0001 C CNN "Feld4"
+	1    6150 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2000 6150 1900
+Wire Wire Line
+	6150 1900 5750 1900
+Connection ~ 5450 1900
+Wire Wire Line
+	5750 2000 5750 1900
+Connection ~ 5750 1900
+Wire Wire Line
+	5750 1900 5450 1900
+Wire Wire Line
+	5750 2300 5750 2450
+Wire Wire Line
+	5750 2450 5450 2450
+Connection ~ 5450 2450
+Wire Wire Line
+	6150 2300 6150 2450
+Wire Wire Line
+	6150 2450 5750 2450
+Connection ~ 5750 2450
+Wire Wire Line
+	1800 3550 1650 3550
+Wire Wire Line
+	1650 3650 2100 3650
+$Comp
+L stmbl_4.0-rescue:LED-stmbl D1
+U 1 1 5E35441E
+P 3700 5300
+F 0 "D1" H 3700 5400 50  0000 C CNN
+F 1 "red" H 3700 5200 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" H 3700 5300 50  0001 C CNN
+F 3 "" H 3700 5300 50  0000 C CNN
+F 4 "" H 3700 5300 50  0001 C CNN "InternalName"
+F 5 "LTST-S220KGKT" H 3700 5300 50  0001 C CNN "Manufacturer No"
+F 6 "" H 3700 5300 50  0001 C CNN "Voltage"
+F 7 "" H 3700 5300 50  0001 C CNN "Source"
+F 8 "" H 3700 5300 50  0001 C CNN "Tolerance"
+F 9 "" H -5600 950 50  0001 C CNN "Description"
+F 10 "Lite-On" H -5600 950 50  0001 C CNN "Manufacturer"
+	1    3700 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stmbl_4.0-rescue:GNDPWR-stmbl #PWR0108
+U 1 1 5E36894B
+P 3700 5600
+F 0 "#PWR0108" H 3700 5400 50  0001 C CNN
+F 1 "GNDPWR" H 3700 5470 50  0000 C CNN
+F 2 "" H 3700 5550 60  0000 C CNN
+F 3 "" H 3700 5550 60  0000 C CNN
+	1    3700 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5600 3700 5500
+Wire Wire Line
+	3350 4450 3700 4450
+$Comp
+L stmbl:R R4
+U 1 1 5E36C460
+P 3700 4800
+F 0 "R4" H 3630 4754 50  0000 R CNN
+F 1 "2.2k" H 3630 4845 50  0000 R CNN
+F 2 "stmbl:R_0805" V 3630 4800 50  0001 C CNN
+F 3 "" H 3700 4800 50  0000 C CNN
+	1    3700 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 4650 3700 4450
+Connection ~ 3700 4450
+Wire Wire Line
+	3700 4450 3800 4450
+Wire Wire Line
+	3700 4950 3700 5100
+$Comp
+L stmbl:non_plated U2
+U 1 1 5E380F78
+P 8000 1000
+F 0 "U2" H 8178 1053 60  0000 L CNN
+F 1 "non_plated" H 8178 947 60  0000 L CNN
+F 2 "stmbl:non_plated_3mm" H 8000 1000 60  0001 C CNN
+F 3 "" H 8000 1000 60  0001 C CNN
+	1    8000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl:non_plated U4
+U 1 1 5E381D88
+P 8500 1000
+F 0 "U4" H 8678 1053 60  0000 L CNN
+F 1 "non_plated" H 8678 947 60  0000 L CNN
+F 2 "stmbl:non_plated_3mm" H 8500 1000 60  0001 C CNN
+F 3 "" H 8500 1000 60  0001 C CNN
+	1    8500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl:non_plated U3
+U 1 1 5E3822EA
+P 8000 1500
+F 0 "U3" H 8178 1553 60  0000 L CNN
+F 1 "non_plated" H 8178 1447 60  0000 L CNN
+F 2 "stmbl:non_plated_3mm" H 8000 1500 60  0001 C CNN
+F 3 "" H 8000 1500 60  0001 C CNN
+	1    8000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl:non_plated U6
+U 1 1 5E382983
+P 8500 1500
+F 0 "U6" H 8678 1553 60  0000 L CNN
+F 1 "non_plated" H 8678 1447 60  0000 L CNN
+F 2 "stmbl:non_plated_3mm" H 8500 1500 60  0001 C CNN
+F 3 "" H 8500 1500 60  0001 C CNN
+	1    8500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl:D D3
+U 1 1 5E271820
+P 5150 3850
+F 0 "D3" V 5200 3800 50  0000 R CNN
+F 1 "US1M" V 5105 3772 50  0000 R CNN
+F 2 "Diode_SMD:D_SMB" H 5150 3850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1903042030_MDD-Jiangsu-Yutai-Elec-US1M_C5441.pdf" H 5150 3850 50  0001 C CNN
+	1    5150 3850
+	0    1    1    0   
+$EndComp
+Connection ~ 5150 4000
+Wire Wire Line
+	5150 4000 4950 4000
+Wire Wire Line
+	5150 4000 5450 4000
+Wire Wire Line
+	2350 1000 2350 1500
+Wire Wire Line
+	700  3650 700  3850
+Wire Wire Line
+	5150 3700 5450 3700
+Wire Wire Line
+	5450 3700 5450 3900
+Wire Wire Line
+	5450 3700 5450 3650
+Connection ~ 5450 3700
+Wire Wire Line
+	3950 1000 3750 1000
+Wire Wire Line
+	3950 1000 3950 1900
+Wire Wire Line
+	3450 1000 3150 1000
+Wire Wire Line
+	2500 1000 2350 1000
+Connection ~ 2350 1000
+Wire Wire Line
+	3150 1000 3150 1500
+Connection ~ 3150 1000
+Wire Wire Line
+	3150 1000 2800 1000
+Wire Wire Line
+	700  950  700  1200
+Wire Wire Line
+	700  1500 700  1600
+Connection ~ 700  1600
+Wire Wire Line
+	700  1600 700  2150
+$Comp
+L Device:Polyfuse F1
+U 1 1 5E35B220
+P 700 1350
+F 0 "F1" H 788 1396 50  0000 L CNN
+F 1 "Polyfuse" H 788 1305 50  0000 L CNN
+F 2 "stmbl:R_0805" H 750 1150 50  0001 L CNN
+F 3 "~" H 700 1350 50  0001 C CNN
+	1    700  1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:C-stmbl C13
+U 1 1 5E3706BD
+P 4500 4650
+F 0 "C13" H 4525 4750 50  0000 L CNN
+F 1 "100n" H 4525 4550 50  0000 L CNN
+F 2 "stmbl:C_0805" H 4538 4500 30  0001 C CNN
+F 3 "" H 4500 4650 60  0000 C CNN
+F 4 "25V" H 4500 4650 60  0001 C CNN "Voltage"
+F 5 "" H 4500 4650 60  0001 C CNN "InternalName"
+F 6 "" H 4500 4650 60  0001 C CNN "Manufacturer No"
+F 7 "" H 4500 4650 60  0001 C CNN "Source"
+F 8 "X5R" H 4500 4650 60  0001 C CNN "Tolerance"
+F 9 "" H -3950 400 50  0001 C CNN "Description"
+F 10 "" H -3950 400 50  0001 C CNN "Manufacturer"
+	1    4500 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4450 4500 4450
+Wire Wire Line
+	4500 4500 4500 4450
+Connection ~ 4500 4450
+Wire Wire Line
+	4500 4450 4650 4450
+Wire Wire Line
+	4500 4900 4500 4800
+$Comp
+L stmbl_4.0-rescue:GNDPWR-stmbl #PWR0109
+U 1 1 5E37B93F
+P 4500 4900
+F 0 "#PWR0109" H 4500 4700 50  0001 C CNN
+F 1 "GNDPWR" H 4500 4770 50  0000 C CNN
+F 2 "" H 4500 4850 60  0000 C CNN
+F 3 "" H 4500 4850 60  0000 C CNN
+	1    4500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl_4.0-rescue:C-stmbl C12
+U 1 1 5E37CEDB
+P 2400 4400
+F 0 "C12" H 2425 4500 50  0000 L CNN
+F 1 "100n" H 2425 4300 50  0000 L CNN
+F 2 "stmbl:C_0805" H 2438 4250 30  0001 C CNN
+F 3 "" H 2400 4400 60  0000 C CNN
+F 4 "25V" H 2400 4400 60  0001 C CNN "Voltage"
+F 5 "" H 2400 4400 60  0001 C CNN "InternalName"
+F 6 "" H 2400 4400 60  0001 C CNN "Manufacturer No"
+F 7 "" H 2400 4400 60  0001 C CNN "Source"
+F 8 "X5R" H 2400 4400 60  0001 C CNN "Tolerance"
+F 9 "" H -6050 150 50  0001 C CNN "Description"
+F 10 "" H -6050 150 50  0001 C CNN "Manufacturer"
+	1    2400 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4250 2400 4150
+Connection ~ 2400 4150
+Wire Wire Line
+	2400 4150 2550 4150
+Wire Wire Line
+	2400 4550 2400 4750
+Connection ~ 2400 4750
+Wire Wire Line
+	2400 4750 1900 4750
+$EndSCHEMATC

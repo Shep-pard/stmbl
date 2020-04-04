@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name stmbl)(type Legacy)(uri "$(KIPRJMOD)/../lib/stmbl.lib")(options "")(descr ""))
+  (lib (name stmbl_4.0-rescue)(type Legacy)(uri ${KIPRJMOD}/stmbl_4.0-rescue.lib)(options "")(descr ""))
+)

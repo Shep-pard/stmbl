@@ -1,4 +1,4 @@
-(module C_0603 (layer F.Cu) (tedit 5AC56310)
+(module C_0603 (layer F.Cu) (tedit 5E298DD3)
   (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
   (tags "capacitor 0603")
   (attr smd)
@@ -18,9 +18,9 @@
   (fp_line (start 0.8 -0.4) (end -0.8 -0.4) (layer F.SilkS) (width 0.15))
   (fp_line (start -0.5 -0.4) (end -0.5 0.4) (layer F.SilkS) (width 0.15))
   (fp_line (start 0.5 -0.4) (end 0.5 0.4) (layer F.SilkS) (width 0.15))
-  (pad 1 smd roundrect (at -0.75 0) (size 0.59 0.8) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.25))
-  (pad 2 smd roundrect (at 0.75 0) (size 0.59 0.8) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.25))
-  (model Capacitors_SMD.3dshapes/C_0603.wrl
+  (pad 1 smd roundrect (at -0.75 0) (size 0.59 0.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+  (pad 2 smd roundrect (at 0.75 0) (size 0.59 0.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+  (model Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,0 +1,14 @@
+"ID";"Bezeichner";"Gehäuse";"Stückzahl";"Bezeichnung";"Anbieter und Referenz";
+1;"JP6,JP8,JP7,JP5,JP4,JP3,JP2,JP1";"SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels";8;"JUMPER3_NC";;;
+2;"J13,J14,J1,J15";"RJ45_LED";4;"RJ45_LED";;;
+3;"J2,J3,J8,J7,J6,J4";"TERMINAL_BLOCK_2PIN_5";6;"Conn_01x04";;;
+4;"J5";"IDC-Header_2x13_P2.54mm_Vertical";1;"Conn_02x13_Odd_Even";;;
+5;"U7,U6,U5,U4,U2,U3,U8,U9";"SOIC-8-N";8;"SN65176B";;;
+6;"R27,R26,R24,R21,R18,R17,R15,R12,R3,R6,R8,R9,R30,R33,R35,R36";"R_0603";16;"1k";;;
+7;"R25,R23,R22,R20,R16,R14,R13,R11,R2,R4,R5,R7,R29,R31,R32,R34";"R_0603";16;"10k";;;
+8;"R19,R10,R1,R28";"R_0603";4;"120";;;
+9;"L3,L2,L1,L4";"R_0603";4;"220r 700mA";;;
+10;"C15,C14,C13,C12,C11,C10,C9,C8,C3,C4,C5,C6,C7,C16,C17,C18,C19";"C_0603";17;"100n";;;
+11;"U13,U12,U11,U10";"non_plated_3mm";4;"non_plated";;;
+12;"C1,C2";"CP_Radial_D6.3mm_P2.50mm";2;"22uF";;;
+13;"U1";"Converter_DCDC_RECOM_R-78E-0.5_THT";1;"R-78C5.0-1.0";;;

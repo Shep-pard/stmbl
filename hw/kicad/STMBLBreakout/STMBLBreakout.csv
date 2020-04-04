@@ -1,0 +1,7 @@
+"ID";"Bezeichner";"Gehäuse";"Stückzahl";"Bezeichnung";"Anbieter und Referenz";
+1;"J7";"TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal";1;"Conn_01x02";;;
+2;"C1,C2";"C_0805";2;"100n";;;
+3;"J1,J2,J4,J5";"TERMINAL_BLOCK_2PIN_3.5";4;"Conn_01x04";;;
+4;"J3,J6";"RJ45_LED";2;"RJ45_LED";;;
+5;"R1,R2";"R_0805";2;"120";;;
+6;"U1,U2,U3,U4";"non_plated_3mm";4;"non_plated";;;
