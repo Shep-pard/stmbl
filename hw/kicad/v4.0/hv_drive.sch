@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:stmbl_4.0-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -30,24 +29,6 @@ F 8 "" H 3050 4400 60  0001 C CNN "Tolerance"
 F 9 "" H 0   0   50  0001 C CNN "Description"
 F 10 "United Chemi-Con" H 0   0   50  0001 C CNN "Manufacturer"
 	1    3050 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L stmbl:CP C22
-U 1 1 56590CD1
-P 3350 4400
-F 0 "C22" H 3375 4500 50  0000 L CNN
-F 1 "270µ" H 3375 4300 50  0000 L CNN
-F 2 "stmbl:C_Radial_D26_L45_P10" H 3388 4250 30  0001 C CNN
-F 3 "" H 3350 4400 60  0000 C CNN
-F 4 "" H 3350 4400 60  0001 C CNN "InternalName"
-F 5 "ESMR401VSN271MQ30S" H 3350 4400 60  0001 C CNN "Manufacturer No"
-F 6 "400V" H 3350 4400 60  0001 C CNN "Voltage"
-F 7 "" H 3350 4400 60  0001 C CNN "Source"
-F 8 "" H 3350 4400 60  0001 C CNN "Tolerance"
-F 9 "" H 0   0   50  0001 C CNN "Description"
-F 10 "United Chemi-Con" H 0   0   50  0001 C CNN "Manufacturer"
-	1    3350 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -88,8 +69,6 @@ F 10 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 $EndComp
 Connection ~ 4550 4550
 Connection ~ 4250 4550
-Connection ~ 3350 4550
-Connection ~ 3350 4250
 Connection ~ 4250 4250
 Connection ~ 4550 4250
 $Comp
@@ -113,16 +92,7 @@ $EndComp
 Connection ~ 5150 4550
 Wire Wire Line
 	5850 3050 5750 3050
-Wire Wire Line
-	5350 3150 5450 3150
-Text HLabel 5350 3150 0    60   Input ~ 0
-W
-Text HLabel 5350 3550 0    60   Input ~ 0
-V
-Text HLabel 5350 3950 0    60   Input ~ 0
-U
 Connection ~ 3050 4250
-Connection ~ 5450 3150
 Text HLabel 5150 1900 0    60   Input ~ 0
 U
 Text HLabel 5150 2000 0    60   Input ~ 0
@@ -176,24 +146,6 @@ F 3 "" H 7550 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stmbl:IRAM256a U12
-U 1 1 5668DD3B
-P 6450 4050
-F 0 "U12" H 6100 5200 60  0000 C CNN
-F 1 "IRAM256a" H 6650 2900 60  0000 C CNN
-F 2 "stmbl:IRAM256" H 6450 4050 60  0001 C CNN
-F 3 "" H 6450 4050 60  0000 C CNN
-F 4 "IRAM256-2067A2" H 6450 4050 50  0001 C CNN "Manufacturer No"
-F 5 "" H 6450 4050 50  0001 C CNN "Voltage"
-F 6 "" H 6450 4050 50  0001 C CNN "Source"
-F 7 "" H 6450 4050 60  0001 C CNN "InternalName"
-F 8 "" H 6450 4050 60  0001 C CNN "Tolerance"
-F 9 "" H 0   0   50  0001 C CNN "Description"
-F 10 "Infineon" H 0   0   50  0001 C CNN "Manufacturer"
-	1    6450 4050
-	1    0    0    -1  
-$EndComp
-$Comp
 L stmbl:C C43
 U 1 1 5668E03D
 P 5600 3450
@@ -214,10 +166,7 @@ $EndComp
 Wire Wire Line
 	5850 3450 5750 3450
 Wire Wire Line
-	5350 3550 5450 3550
-Wire Wire Line
 	5450 3450 5450 3550
-Connection ~ 5450 3550
 $Comp
 L stmbl:C C44
 U 1 1 5668E1AC
@@ -239,10 +188,7 @@ $EndComp
 Wire Wire Line
 	5850 3850 5750 3850
 Wire Wire Line
-	5350 3950 5450 3950
-Wire Wire Line
 	5450 3850 5450 3950
-Connection ~ 5450 3950
 $Comp
 L stmbl:R R80
 U 1 1 5668E2F9
@@ -653,17 +599,11 @@ Wire Wire Line
 Wire Wire Line
 	4250 4550 4550 4550
 Wire Wire Line
-	3350 4550 3650 4550
-Wire Wire Line
-	3350 4250 3650 4250
-Wire Wire Line
 	4250 4250 4550 4250
 Wire Wire Line
 	4550 4250 4850 4250
 Wire Wire Line
 	5150 4550 5250 4550
-Wire Wire Line
-	3050 4250 3350 4250
 Wire Wire Line
 	5450 3150 5850 3150
 Wire Wire Line
@@ -676,8 +616,6 @@ Wire Wire Line
 	5700 4750 5850 4750
 Wire Wire Line
 	5700 4950 5850 4950
-Wire Wire Line
-	3050 4550 3350 4550
 Wire Wire Line
 	7550 5050 7800 5050
 Wire Wire Line
@@ -704,4 +642,55 @@ Wire Wire Line
 	8100 5050 8400 5050
 Wire Wire Line
 	8100 4750 8400 4750
+$Comp
+L stmbl:IKCM20L60GD U12
+U 1 1 5EC2EF5C
+P 6450 4050
+F 0 "U12" H 6450 5443 60  0000 C CNN
+F 1 "IKCM20L60GD" H 6450 5337 60  0000 C CNN
+F 2 "stmbl:INF-CIPOS_MINI" H 6450 5231 60  0000 C CNN
+F 3 "" H 6450 4050 60  0000 C CNN
+	1    6450 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3250 5850 3250
+Wire Wire Line
+	5350 3650 5850 3650
+Wire Wire Line
+	5350 4050 5850 4050
+Text HLabel 5350 4050 0    60   Input ~ 0
+U
+Text HLabel 5350 3650 0    60   Input ~ 0
+V
+Text HLabel 5350 3250 0    60   Input ~ 0
+W
+Wire Wire Line
+	3050 4550 3350 4550
+Wire Wire Line
+	3050 4250 3350 4250
+$Comp
+L stmbl:C C22
+U 1 1 5EC3BB72
+P 3350 4400
+F 0 "C22" H 3375 4500 50  0000 L CNN
+F 1 "150n" H 3375 4300 50  0000 L CNN
+F 2 "stmbl:C_1808" H 3388 4250 30  0001 C CNN
+F 3 "" H 3350 4400 60  0000 C CNN
+F 4 "" H 3350 4400 60  0001 C CNN "InternalName"
+F 5 "C1808W154KCRACTU" H 3350 4400 60  0001 C CNN "Manufacturer No"
+F 6 "500V" H 3350 4400 60  0001 C CNN "Voltage"
+F 7 "" H 3350 4400 60  0001 C CNN "Source"
+F 8 "X7R" H 3350 4400 60  0001 C CNN "Tolerance"
+F 9 "" H -300 0   50  0001 C CNN "Description"
+F 10 "KEMET" H -300 0   50  0001 C CNN "Manufacturer"
+	1    3350 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 4250
+Wire Wire Line
+	3350 4250 3650 4250
+Connection ~ 3350 4550
+Wire Wire Line
+	3350 4550 3650 4550
 $EndSCHEMATC
