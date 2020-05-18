@@ -21,7 +21,7 @@
 #define PWM_V TIM8->CCR2
 #define PWM_W TIM8->CCR1
 
-#define PWM_DEADTIME 0
+#define PWM_DEADTIME 72
 //#define PWM_DEADTIME 29 // 1/144e6 * 29 = 201ns
 #define PWM_RES 4800
 

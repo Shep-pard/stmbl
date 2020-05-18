@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name 11ua-rescue)(type Legacy)(uri ${KIPRJMOD}/11ua-rescue.lib)(options "")(descr ""))
+)

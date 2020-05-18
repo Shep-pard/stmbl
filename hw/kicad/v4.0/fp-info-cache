@@ -1,4 +1,4 @@
-17070010475575417
+17082180711962672
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -46872,6 +46872,13 @@ Heatsink TV5G TO-220 Horizontal
 0
 0
 Heatsink
+Heatsink_Fischer_FK224xx2201_25x8.3mm
+25x8.3mm Heatsink, 18K/W, TO-220, https://www.fischerelektronik.de/web_fischer/en_GB/$catalogue/fischerData/PR/FK224_220_1_/datasheet.xhtml?branch=heatsinks
+heatsink TO-220
+0
+2
+1
+Heatsink
 Heatsink_Fischer_FK24413D2PAK_26x13mm
 26x13 mm SMD heatsink for TO-252 TO-263 TO-268, https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/fk_244_13_d2_pak.pdf
 heatsink TO-252 TO-263 TO-268
@@ -75425,6 +75432,34 @@ marker
 1
 1
 stmbl
+IDC-Header_2x13_P2.54mm_Horizontal
+Through hole angled IDC box header, 2x13, 2.54mm pitch, double rows
+Through hole IDC box header THT 2x13 2.54mm double row
+0
+26
+26
+stmbl
+IDC-Header_2x13_P2.54mm_Horizontal_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+28
+26
+stmbl
+IDC-Header_2x13_P2.54mm_Vertical
+Through hole straight IDC box header, 2x13, 2.54mm pitch, double rows
+Through hole IDC box header THT 2x13 2.54mm double row
+0
+26
+26
+stmbl
+IDC-Header_2x13_P2.54mm_Vertical_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+28
+26
+stmbl
 INF-CIPOS_MINI
 Original name <b>INF-CIPOS_MINI</b><p>Max Component Height - 5.6mm
 
@@ -75739,6 +75774,20 @@ Symbol, OSHW-Logo, Silk Screen,
 0
 0
 0
+stmbl
+TERMINAL_BLOCK_2PIN_3.5
+
+
+0
+4
+4
+stmbl
+TERMINAL_BLOCK_2PIN_5
+
+
+0
+4
+4
 stmbl
 USB_Micro-B
 Micro USB Type B Receptacle

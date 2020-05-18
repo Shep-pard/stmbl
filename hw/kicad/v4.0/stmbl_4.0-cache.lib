@@ -1,34 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# SamacSys_Parts_EKMG500ELL470MF11D
+# stmbl:+12V
 #
-DEF SamacSys_Parts_EKMG500ELL470MF11D C 0 30 Y Y 1 F N
-F0 "C" 350 250 50 H V L CNN
-F1 "SamacSys_Parts_EKMG500ELL470MF11D" 350 150 50 H V L CNN
-F2 "CAPPRD250W60D680H1250" 350 50 50 H I L CNN
-F3 "https://componentsearchengine.com/Datasheets/1/EKMG500ELL470MF11D.pdf" 350 -50 50 H I L CNN
-F4 "UNITED CHEMI-CON - EKMG500ELL470MF11D - ALUMINUM ELECTROLYTIC CAPACITOR 47UF, 50V, 20%, RADIAL" 350 -150 50 H I L CNN "Description"
-F5 "12.5" 350 -250 50 H I L CNN "Height"
-F6 "661-EKMGG500ELL470MF" 350 -350 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=661-EKMGG500ELL470MF" 350 -450 50 H I L CNN "Mouser Price/Stock"
-F8 "United Chemi-Con" 350 -550 50 H I L CNN "Manufacturer_Name"
-F9 "EKMG500ELL470MF11D" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 2 0 1 6 200 0 220 0 N
-P 2 0 1 6 220 100 220 -100 N
-P 2 0 1 6 280 0 300 0 N
-P 2 0 1 6 280 100 280 -100 N
-X ~ 1 0 0 200 R 50 50 0 0 P
-X ~ 2 500 0 200 L 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
-# stmbl_+12V
-#
-DEF stmbl_+12V #PWR 0 0 Y Y 1 F P
+DEF stmbl:+12V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "stmbl_+12V" 0 140 50 H V C CNN
+F1 "stmbl:+12V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -39,11 +16,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stmbl_+15V
+# stmbl:+15V
 #
-DEF stmbl_+15V #PWR 0 0 Y Y 1 F P
+DEF stmbl:+15V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "stmbl_+15V" 0 140 50 H V C CNN
+F1 "stmbl:+15V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -54,11 +31,11 @@ X +15V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stmbl_+24V
+# stmbl:+24V
 #
-DEF stmbl_+24V #PWR 0 0 Y Y 1 F P
+DEF stmbl:+24V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "stmbl_+24V" 0 140 50 H V C CNN
+F1 "stmbl:+24V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -69,11 +46,11 @@ X +24V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stmbl_+3.3V
+# stmbl:+3.3V
 #
-DEF stmbl_+3.3V #PWR 0 0 Y Y 1 F P
+DEF stmbl:+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "stmbl_+3.3V" 0 140 50 H V C CNN
+F1 "stmbl:+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 ALIAS +3.3V
@@ -85,11 +62,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stmbl_+3.3VP
+# stmbl:+3.3VP
 #
-DEF stmbl_+3.3VP #PWR 0 0 Y Y 1 F P
+DEF stmbl:+3.3VP #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 150 -50 50 H I C CNN
-F1 "stmbl_+3.3VP" 0 100 50 H V C CNN
+F1 "stmbl:+3.3VP" 0 100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -99,11 +76,11 @@ X +3.3VP 1 0 0 0 U 50 50 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# stmbl_+5F
+# stmbl:+5F
 #
-DEF stmbl_+5F #PWR 0 0 Y Y 1 F P
+DEF stmbl:+5F #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "stmbl_+5F" 0 140 50 H V C CNN
+F1 "stmbl:+5F" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -114,11 +91,11 @@ X +5F 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stmbl_+5V
+# stmbl:+5V
 #
-DEF stmbl_+5V #PWR 0 0 Y Y 1 F P
+DEF stmbl:+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "stmbl_+5V" 0 140 50 H V C CNN
+F1 "stmbl:+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -129,11 +106,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stmbl_+5VA
+# stmbl:+5VA
 #
-DEF stmbl_+5VA #PWR 0 0 Y Y 1 F P
+DEF stmbl:+5VA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "stmbl_+5VA" 0 140 50 H V C CNN
+F1 "stmbl:+5VA" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -144,11 +121,11 @@ X +5VA 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stmbl_ACT4088
+# stmbl:ACT4088
 #
-DEF stmbl_ACT4088 U 0 40 Y Y 1 F N
+DEF stmbl:ACT4088 U 0 40 Y Y 1 F N
 F0 "U" -150 250 60 H V C CNN
-F1 "stmbl_ACT4088" 0 -250 60 H V C CNN
+F1 "stmbl:ACT4088" 0 -250 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -162,11 +139,11 @@ X BST 6 400 150 200 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# stmbl_C
+# stmbl:C
 #
-DEF stmbl_C C 0 10 N Y 1 F N
+DEF stmbl:C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "stmbl_C" 25 -100 50 H V L CNN
+F1 "stmbl:C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -184,11 +161,11 @@ X ~ 2 0 -150 110 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_CONN_01X02
+# stmbl:CONN_01X02
 #
-DEF stmbl_CONN_01X02 P 0 40 Y N 1 F N
+DEF stmbl:CONN_01X02 P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "stmbl_CONN_01X02" 100 0 50 V V C CNN
+F1 "stmbl:CONN_01X02" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -206,11 +183,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_CONN_01X03
+# stmbl:CONN_01X03
 #
-DEF stmbl_CONN_01X03 P 0 40 Y N 1 F N
+DEF stmbl:CONN_01X03 P 0 40 Y N 1 F N
 F0 "P" 0 200 50 H V C CNN
-F1 "stmbl_CONN_01X03" 100 0 50 V V C CNN
+F1 "stmbl:CONN_01X03" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -230,11 +207,11 @@ X P3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_CONN_01X04
+# stmbl:CONN_01X04
 #
-DEF stmbl_CONN_01X04 P 0 40 Y N 1 F N
+DEF stmbl:CONN_01X04 P 0 40 Y N 1 F N
 F0 "P" 0 250 50 H V C CNN
-F1 "stmbl_CONN_01X04" 100 0 50 V V C CNN
+F1 "stmbl:CONN_01X04" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -256,11 +233,11 @@ X P4 4 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_CONN_01X06
+# stmbl:CONN_01X06
 #
-DEF stmbl_CONN_01X06 P 0 40 Y N 1 F N
+DEF stmbl:CONN_01X06 P 0 40 Y N 1 F N
 F0 "P" 0 350 50 H V C CNN
-F1 "stmbl_CONN_01X06" 100 0 50 V V C CNN
+F1 "stmbl:CONN_01X06" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -286,11 +263,11 @@ X P6 6 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_CONN_02X06
+# stmbl:CONN_02X06
 #
-DEF stmbl_CONN_02X06 P 0 1 Y N 1 F N
+DEF stmbl:CONN_02X06 P 0 1 Y N 1 F N
 F0 "P" 0 350 50 H V C CNN
-F1 "stmbl_CONN_02X06" 0 -350 50 H V C CNN
+F1 "stmbl:CONN_02X06" 0 -350 50 H V C CNN
 F2 "" 0 -1200 50 H V C CNN
 F3 "" 0 -1200 50 H V C CNN
 $FPLIST
@@ -328,11 +305,11 @@ X P9 9 -250 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_CP
+# stmbl:CP
 #
-DEF stmbl_CP C 0 10 N Y 1 F N
+DEF stmbl:CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "stmbl_CP" 25 -100 50 H V L CNN
+F1 "stmbl:CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -356,11 +333,11 @@ X ~ 2 0 -150 110 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_Crystal
+# stmbl:Crystal
 #
-DEF stmbl_Crystal Y 0 40 N N 1 F N
+DEF stmbl:Crystal Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "stmbl_Crystal" 0 -150 50 H V C CNN
+F1 "stmbl:Crystal" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -375,11 +352,11 @@ X 2 2 150 0 50 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_D
+# stmbl:D
 #
-DEF stmbl_D D 0 40 N N 1 F N
+DEF stmbl:D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "stmbl_D" 0 -100 50 H V C CNN
+F1 "stmbl:D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -397,11 +374,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_D_Schottky
+# stmbl:D_Schottky
 #
-DEF stmbl_D_Schottky D 0 40 N N 1 F N
+DEF stmbl:D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "stmbl_D_Schottky" 0 -100 50 H V C CNN
+F1 "stmbl:D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -419,11 +396,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_GND
+# stmbl:GND
 #
-DEF stmbl_GND #PWR 0 0 Y Y 1 F P
+DEF stmbl:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "stmbl_GND" 0 -150 50 H V C CNN
+F1 "stmbl:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -432,11 +409,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stmbl_GNDD
+# stmbl:GNDD
 #
-DEF stmbl_GNDD #PWR 0 0 Y Y 1 F P
+DEF stmbl:GNDD #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "stmbl_GNDD" 0 -150 50 H V C CNN
+F1 "stmbl:GNDD" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -445,11 +422,11 @@ X GNDD 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stmbl_GNDPWR
+# stmbl:GNDPWR
 #
-DEF stmbl_GNDPWR #PWR 0 0 Y Y 1 F P
+DEF stmbl:GNDPWR #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -200 50 H I C CNN
-F1 "stmbl_GNDPWR" 0 -130 50 H V C CNN
+F1 "stmbl:GNDPWR" 0 -130 50 H V C CNN
 F2 "" 0 -50 50 H V C CNN
 F3 "" 0 -50 50 H V C CNN
 DRAW
@@ -464,11 +441,11 @@ X GNDPWR 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stmbl_INDUCTOR
+# stmbl:INDUCTOR
 #
-DEF stmbl_INDUCTOR L 0 40 N N 1 F N
+DEF stmbl:INDUCTOR L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "stmbl_INDUCTOR" 100 0 50 V V C CNN
+F1 "stmbl:INDUCTOR" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -481,11 +458,11 @@ X 2 2 0 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_IRAM256a
+# stmbl:IRAM256a
 #
-DEF stmbl_IRAM256a U 0 40 Y Y 1 F N
+DEF stmbl:IRAM256a U 0 40 Y Y 1 F N
 F0 "U" -350 1150 60 H V C CNN
-F1 "stmbl_IRAM256a" 200 -1150 60 H V C CNN
+F1 "stmbl:IRAM256a" 200 -1150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -514,11 +491,11 @@ X UB 9 -600 200 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# stmbl_JUMPER3_NC
+# stmbl:JUMPER3_NC
 #
-DEF stmbl_JUMPER3_NC JP 0 30 Y N 1 F N
+DEF stmbl:JUMPER3_NC JP 0 30 Y N 1 F N
 F0 "JP" 50 -100 50 H V L CNN
-F1 "stmbl_JUMPER3_NC" 0 100 50 H V C BNN
+F1 "stmbl:JUMPER3_NC" 0 100 50 H V C BNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -532,11 +509,11 @@ X 3 3 250 0 95 L 40 40 0 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_Jumper_NO_Small
+# stmbl:Jumper_NO_Small
 #
-DEF stmbl_Jumper_NO_Small JP 0 30 N N 1 F N
+DEF ~stmbl:Jumper_NO_Small JP 0 30 N N 1 F N
 F0 "JP" 0 80 50 H V C CNN
-F1 "stmbl_Jumper_NO_Small" 10 -60 50 H I C CNN
+F1 "stmbl:Jumper_NO_Small" 10 -60 50 H I C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -547,11 +524,11 @@ X 2 2 100 0 40 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_LED
+# stmbl:LED
 #
-DEF stmbl_LED D 0 40 Y N 1 F N
+DEF stmbl:LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "stmbl_LED" 0 -100 50 H V C CNN
+F1 "stmbl:LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -573,11 +550,11 @@ X A 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_LM358
+# stmbl:LM358
 #
-DEF stmbl_LM358 U 0 20 Y Y 2 F N
+DEF stmbl:LM358 U 0 20 Y Y 2 F N
 F0 "U" -50 200 50 H V L CNN
-F1 "stmbl_LM358" -50 -250 50 H V L CNN
+F1 "stmbl:LM358" -50 -250 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 ALIAS LMC6062 LMC6082 LM358N TL072 TL082
@@ -594,11 +571,11 @@ X ~ 7 300 0 100 L 50 50 2 1 O
 ENDDRAW
 ENDDEF
 #
-# stmbl_Led_Small
+# stmbl:Led_Small
 #
-DEF stmbl_Led_Small D 0 10 N N 1 F N
+DEF stmbl:Led_Small D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "stmbl_Led_Small" -175 -100 50 H V L CNN
+F1 "stmbl:Led_Small" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 $FPLIST
@@ -615,11 +592,11 @@ X A 2 100 0 70 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_MMBF170
+# stmbl:MMBF170
 #
-DEF stmbl_MMBF170 Q 0 0 Y Y 1 F N
+DEF stmbl:MMBF170 Q 0 0 Y Y 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "stmbl_MMBF170" 200 0 50 H V L CNN
+F1 "stmbl:MMBF170" 200 0 50 H V L CNN
 F2 "SOT-23" 200 -75 50 H V L CIN
 F3 "" 0 0 50 H V L CNN
 $FPLIST
@@ -648,11 +625,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_OPEN_HARDWARE_1
+# stmbl:OPEN_HARDWARE_1
 #
-DEF stmbl_OPEN_HARDWARE_1 LOGO 0 40 Y Y 1 F N
+DEF stmbl:OPEN_HARDWARE_1 LOGO 0 40 Y Y 1 F N
 F0 "LOGO" 0 275 50 H V C CNN
-F1 "stmbl_OPEN_HARDWARE_1" 0 -225 50 H V C CNN
+F1 "stmbl:OPEN_HARDWARE_1" 0 -225 50 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -660,11 +637,11 @@ P 277 0 1 0 132 -171 130 -170 125 -167 118 -162 109 -156 100 -150 93 -146 88 -14
 ENDDRAW
 ENDDEF
 #
-# stmbl_R
+# stmbl:R
 #
-DEF stmbl_R R 0 0 N Y 1 F N
+DEF stmbl:R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "stmbl_R" 0 0 50 V V C CNN
+F1 "stmbl:R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -678,11 +655,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_RJ45_LED
+# stmbl:RJ45_LED
 #
-DEF stmbl_RJ45_LED J 0 40 Y Y 1 F N
+DEF stmbl:RJ45_LED J 0 40 Y Y 1 F N
 F0 "J" 0 -500 50 H V C CNN
-F1 "stmbl_RJ45_LED" 0 400 50 H V C CNN
+F1 "stmbl:RJ45_LED" 0 400 50 H V C CNN
 F2 "" 0 -50 60 H V C CNN
 F3 "" 0 -50 60 H V C CNN
 $FPLIST
@@ -785,11 +762,11 @@ X ~ 9 400 500 150 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_SI8621
+# stmbl:SI8621
 #
-DEF stmbl_SI8621 U 0 40 Y Y 1 F N
+DEF stmbl:SI8621 U 0 40 Y Y 1 F N
 F0 "U" 550 -700 60 H V C CNN
-F1 "stmbl_SI8621" 0 -650 60 H V C CNN
+F1 "stmbl:SI8621" 0 -650 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -822,11 +799,11 @@ X VDD2 8 350 700 200 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# stmbl_SP3485
+# stmbl:SP3485
 #
-DEF stmbl_SP3485 U 0 40 Y Y 1 F N
+DEF stmbl:SP3485 U 0 40 Y Y 1 F N
 F0 "U" -300 350 50 H V L CNN
-F1 "stmbl_SP3485" 100 350 50 H V L CNN
+F1 "stmbl:SP3485" 100 350 50 H V L CNN
 F2 "SO-8" 0 0 50 H V C CIN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -845,11 +822,11 @@ X VCC 8 0 400 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# stmbl_STM32F303CBTx
+# stmbl:STM32F303CBTx
 #
-DEF stmbl_STM32F303CBTx U 0 40 Y Y 1 L N
+DEF stmbl:STM32F303CBTx U 0 40 Y Y 1 L N
 F0 "U" -500 1650 50 H V L BNN
-F1 "stmbl_STM32F303CBTx" 400 700 50 H V R BNN
+F1 "stmbl:STM32F303CBTx" 400 700 50 H V R BNN
 F2 "LQFP48" 200 650 50 H V R TNN
 F3 "" 450 100 50 H V C CNN
 ALIAS STM32F303CCTx
@@ -906,11 +883,11 @@ X VDDA 9 200 1700 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# stmbl_STM32F405VG
+# stmbl:STM32F405VG
 #
-DEF stmbl_STM32F405VG U 0 40 Y Y 1 F N
+DEF stmbl:STM32F405VG U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "stmbl_STM32F405VG" 0 100 50 H V C CNN
+F1 "stmbl:STM32F405VG" 0 100 50 H V C CNN
 F2 "TQFP100" 0 -100 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -1018,11 +995,11 @@ X VSS 99 400 -3000 300 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# stmbl_USBLC6-4SC6
+# stmbl:USBLC6-4SC6
 #
-DEF stmbl_USBLC6-4SC6 U 0 40 Y Y 1 F N
+DEF stmbl:USBLC6-4SC6 U 0 40 Y Y 1 F N
 F0 "U" -699 348 50 H V C CNN
-F1 "stmbl_USBLC6-4SC6" 0 250 50 H V C CNN
+F1 "stmbl:USBLC6-4SC6" 0 250 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "TRANSIENT VOLTAGE SUPPRESSOR" 0 -250 50 H V C CNN "Description"
@@ -1037,11 +1014,11 @@ X I/O4 6 1050 100 298 L 50 50 1 1 U
 ENDDRAW
 ENDDEF
 #
-# stmbl_USB_OTG
+# stmbl:USB_OTG
 #
-DEF stmbl_USB_OTG P 0 40 Y Y 1 F N
+DEF stmbl:USB_OTG P 0 40 Y Y 1 F N
 F0 "P" 325 -125 50 H V C CNN
-F1 "stmbl_USB_OTG" 0 200 50 H V C CNN
+F1 "stmbl:USB_OTG" 0 200 50 H V C CNN
 F2 "" -50 -100 50 V V C CNN
 F3 "" -50 -100 50 V V C CNN
 $FPLIST
@@ -1063,11 +1040,11 @@ X shield 6 400 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stmbl_VPP
+# stmbl:VPP
 #
-DEF stmbl_VPP #PWR 0 0 Y Y 1 F P
+DEF stmbl:VPP #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "stmbl_VPP" 0 150 50 H V C CNN
+F1 "stmbl:VPP" 0 150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -1078,11 +1055,11 @@ X VPP 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stmbl_fan
+# stmbl:fan
 #
-DEF stmbl_fan U 0 40 Y Y 1 F N
+DEF stmbl:fan U 0 40 Y Y 1 F N
 F0 "U" 0 -250 60 H V C CNN
-F1 "stmbl_fan" 0 250 60 H V C CNN
+F1 "stmbl:fan" 0 250 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -1091,11 +1068,11 @@ S -200 200 200 -200 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# stmbl_heatsink
+# stmbl:heatsink
 #
-DEF stmbl_heatsink U 0 40 Y Y 1 F N
+DEF stmbl:heatsink U 0 40 Y Y 1 F N
 F0 "U" 0 -300 60 H V C CNN
-F1 "stmbl_heatsink" 0 200 60 H V C CNN
+F1 "stmbl:heatsink" 0 200 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -1103,11 +1080,11 @@ P 21 0 1 0 -200 150 250 150 250 -250 200 -250 200 50 150 50 150 -250 100 -250 10
 ENDDRAW
 ENDDEF
 #
-# stmbl_lnk304D
+# stmbl:lnk304D
 #
-DEF stmbl_lnk304D U 0 40 Y Y 1 F N
+DEF stmbl:lnk304D U 0 40 Y Y 1 F N
 F0 "U" -100 200 60 H V C CNN
-F1 "stmbl_lnk304D" 0 -500 60 H V C CNN
+F1 "stmbl:lnk304D" 0 -500 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -1122,11 +1099,11 @@ X S 8 350 -400 200 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# stmbl_non_plated
+# stmbl:non_plated
 #
-DEF stmbl_non_plated U 0 40 Y Y 1 F N
+DEF stmbl:non_plated U 0 40 Y Y 1 F N
 F0 "U" 0 -350 60 H V C CNN
-F1 "stmbl_non_plated" 50 250 60 H V C CNN
+F1 "stmbl:non_plated" 50 250 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 $FPLIST
@@ -1137,11 +1114,11 @@ C 0 0 150 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# stmbl_testpoint
+# stmbl:testpoint
 #
-DEF stmbl_testpoint T 0 40 Y Y 1 F N
+DEF stmbl:testpoint T 0 40 Y Y 1 F N
 F0 "T" 0 100 60 H V C CNN
-F1 "stmbl_testpoint" 0 -100 60 H V C CNN
+F1 "stmbl:testpoint" 0 -100 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -1150,11 +1127,11 @@ X ~ 1 -200 0 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# stmbl_zldo1117
+# stmbl:zldo1117
 #
-DEF stmbl_zldo1117 U 0 30 Y Y 1 F N
+DEF stmbl:zldo1117 U 0 30 Y Y 1 F N
 F0 "U" 150 -196 50 H V C CNN
-F1 "stmbl_zldo1117" 0 200 50 H V C CNN
+F1 "stmbl:zldo1117" 0 200 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
