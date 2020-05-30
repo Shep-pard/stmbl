@@ -434,24 +434,6 @@ F 10 "STMicroelectronics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    9800 3000
 	1    0    0    -1  
 $EndComp
-$Comp
-L stmbl:R R129
-U 1 1 570E4A7D
-P 10750 4400
-F 0 "R129" V 10830 4400 50  0000 C CNN
-F 1 "1k" V 10750 4400 50  0000 C CNN
-F 2 "stmbl:R_0603" V 10680 4400 30  0001 C CNN
-F 3 "" H 10750 4400 30  0000 C CNN
-F 4 "" H 10750 4400 30  0001 C CNN "InternalName"
-F 5 "" H 10750 4400 30  0001 C CNN "Manufacturer No"
-F 6 "" H 10750 4400 30  0001 C CNN "Voltage"
-F 7 "" H 10750 4400 30  0001 C CNN "Source"
-F 8 "1%" H 10750 4400 30  0001 C CNN "Tolerance"
-F 9 "" H 0   0   50  0001 C CNN "Description"
-F 10 "" H 0   0   50  0001 C CNN "Manufacturer"
-	1    10750 4400
-	0    1    1    0   
-$EndComp
 Text HLabel 10500 2900 2    60   Input ~ 0
 A_IW
 Text HLabel 9100 2800 0    60   Input ~ 0
@@ -719,8 +701,6 @@ Text HLabel 10500 4000 2    60   Input ~ 0
 USB_DP
 Text HLabel 10500 3900 2    60   Input ~ 0
 USB_DM
-Text HLabel 11000 4400 2    60   Input ~ 0
-HV_EN
 Text HLabel 9100 3500 0    60   Input ~ 0
 HV_FLT
 Text HLabel 11900 4000 2    60   Input ~ 0
@@ -909,14 +889,6 @@ Wire Wire Line
 	10400 3900 10500 3900
 Wire Wire Line
 	10400 4000 10500 4000
-Wire Wire Line
-	10400 4300 10500 4300
-Wire Wire Line
-	11000 4400 10900 4400
-Wire Wire Line
-	10600 4400 10500 4400
-Wire Wire Line
-	10500 4400 10500 4300
 Connection ~ 11450 4300
 Connection ~ 11450 4100
 Connection ~ 11450 4000

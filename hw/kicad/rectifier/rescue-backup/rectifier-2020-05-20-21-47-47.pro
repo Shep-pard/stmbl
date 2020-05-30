@@ -1,4 +1,4 @@
-update=20.05.2020 21:48:09
+update=Fr 15 Jan 2016 13:19:25 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,4 +27,11 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=bridge.pretty
+[eeschema/libraries]
+LibName1=power
+LibName2=device
+LibName3=conn
+LibName4=linear
+LibName5=regul
+LibName6=relays

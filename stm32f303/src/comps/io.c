@@ -75,7 +75,7 @@ struct io_ctx_t {
 #define ARES 4096.0  // analog resolution, 12 bit
 #define ADC(a) ((a) / ARES * AREF)
 
-#define HV_TEMP_PULLUP 10000
+#define HV_TEMP_PULLUP 3900
 #define HV_R(a) (HV_TEMP_PULLUP / (AREF / (a)-1))
 
 #define MOT_TEMP_PULLUP 10000
@@ -98,7 +98,7 @@ float r2temp(float r) {
   const int step  = 10;
   const int start = -10;
   //-10..100
-  const float temp[] = {271.7, 158.2, 95.23, 59.07, 37.64, 24.59, 16.43, 11.21, 7.798, 5.518, 3.972, 2.902};
+  const float temp[] = {481.4, 261.2, 159, 99.63, 64.06, 42.18, 28.4, 19.52, 13.67, 9.75, 7.06, 5.19};
 
   for(int i = 1; i < ARRAY_SIZE(temp); i++) {
     if(temp[i] < r) {

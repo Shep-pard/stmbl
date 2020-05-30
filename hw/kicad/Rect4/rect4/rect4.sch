@@ -1,0 +1,384 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L stmbl:CONN_01X03 J1
+U 1 1 5EDFB41E
+P 1200 2200
+F 0 "J1" H 1118 1875 50  0000 C CNN
+F 1 "CONN_01X03" H 1118 1966 50  0000 C CNN
+F 2 "stmbl:RM5.08_1x3" H 1200 2200 50  0001 C CNN
+F 3 "" H 1200 2200 50  0001 C CNN
+	1    1200 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L stmbl:CONN_01X02 J3
+U 1 1 5EDFDA64
+P 6050 2000
+F 0 "J3" H 6130 1992 50  0000 L CNN
+F 1 "CONN_01X02" H 6130 1901 50  0000 L CNN
+F 2 "stmbl:RM5.08_1x2" H 6050 2000 50  0001 C CNN
+F 3 "" H 6050 2000 50  0001 C CNN
+	1    6050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:FINDER-40.52 K1
+U 1 1 5EDFEB9D
+P 2450 1900
+F 0 "K1" V 1683 1900 50  0000 C CNN
+F 1 "EC2-3NU" V 1774 1900 50  0000 C CNN
+F 2 "Relay_THT:Relay_DPDT_Finder_40.52" H 2450 1900 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf" H 2450 1900 50  0001 C CNN
+	1    2450 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L stmbl:CONN_01X02 J2
+U 1 1 5EE013EA
+P 2350 700
+F 0 "J2" V 2314 512 50  0000 R CNN
+F 1 "CONN_01X02" V 2223 512 50  0000 R CNN
+F 2 "stmbl:RM3.5_1x2" H 2350 700 50  0001 C CNN
+F 3 "" H 2350 700 50  0001 C CNN
+	1    2350 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4001 D1
+U 1 1 5EE02637
+P 2400 1150
+F 0 "D1" H 2400 1367 50  0000 C CNN
+F 1 "1N4001" H 2400 1276 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2400 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2400 1150 50  0001 C CNN
+	1    2400 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 900  2050 900 
+Wire Wire Line
+	2050 900  2050 1150
+Wire Wire Line
+	2050 1500 2150 1500
+Wire Wire Line
+	2750 1500 2850 1500
+Wire Wire Line
+	2850 1500 2850 1150
+Wire Wire Line
+	2850 900  2450 900 
+Wire Wire Line
+	2250 1150 2050 1150
+Connection ~ 2050 1150
+Wire Wire Line
+	2050 1150 2050 1500
+Connection ~ 2850 1150
+Wire Wire Line
+	2850 1150 2850 900 
+Wire Wire Line
+	2550 1150 2850 1150
+Wire Wire Line
+	1400 2200 1650 2200
+$Comp
+L stmbl:Earth_Protective #PWR01
+U 1 1 5EE05678
+P 1500 1900
+F 0 "#PWR01" H 1750 1650 50  0001 C CNN
+F 1 "Earth_Protective" H 1950 1750 50  0001 C CNN
+F 2 "" H 1500 1800 50  0001 C CNN
+F 3 "" H 1500 1800 50  0001 C CNN
+	1    1500 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 2100 1500 2100
+Wire Wire Line
+	1500 2100 1500 1900
+$Comp
+L stmbl:R R1
+U 1 1 5EE075C7
+P 2450 2750
+F 0 "R1" V 2243 2750 50  0000 C CNN
+F 1 "50" V 2334 2750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm" V 2380 2750 50  0001 C CNN
+F 3 "" H 2450 2750 50  0001 C CNN
+	1    2450 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5EE089A5
+P 1800 2200
+F 0 "F1" V 1603 2200 50  0000 C CNN
+F 1 "30A" V 1694 2200 50  0000 C CNN
+F 2 "Fuse:Fuse_Littelfuse_395Series" V 1730 2200 50  0001 C CNN
+F 3 "~" H 1800 2200 50  0001 C CNN
+	1    1800 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 1900 2050 1900
+Wire Wire Line
+	2050 1900 2050 2200
+Wire Wire Line
+	2050 2200 1950 2200
+$Comp
+L stmbl:GNDPWR #PWR02
+U 1 1 5EE0F5E4
+P 3700 3200
+F 0 "#PWR02" H 3700 3000 50  0001 C CNN
+F 1 "GNDPWR" H 3704 3046 50  0000 C CNN
+F 2 "" H 3700 3150 50  0001 C CNN
+F 3 "" H 3700 3150 50  0001 C CNN
+	1    3700 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3200 3700 3150
+Wire Wire Line
+	3700 3150 3750 3150
+Wire Wire Line
+	4550 3100 4550 3150
+Wire Wire Line
+	4550 3150 4350 3150
+$Comp
+L stmbl:VPP #PWR03
+U 1 1 5EE11355
+P 4550 3100
+F 0 "#PWR03" H 4550 2950 50  0001 C CNN
+F 1 "VPP" H 4565 3273 50  0000 C CNN
+F 2 "" H 4550 3100 50  0001 C CNN
+F 3 "" H 4550 3100 50  0001 C CNN
+	1    4550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl:CP C2
+U 1 1 5EE12F98
+P 5500 2050
+F 0 "C2" H 5618 2096 50  0000 L CNN
+F 1 "CP" H 5618 2005 50  0000 L CNN
+F 2 "stmbl:C_Radial_D26_L45_P10" H 5538 1900 50  0001 C CNN
+F 3 "" H 5500 2050 50  0001 C CNN
+	1    5500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl:CP C1
+U 1 1 5EE13E1B
+P 5250 2050
+F 0 "C1" H 5368 2096 50  0000 L CNN
+F 1 "CP" H 5368 2005 50  0000 L CNN
+F 2 "stmbl:C_Radial_D26_L45_P10" H 5288 1900 50  0001 C CNN
+F 3 "" H 5250 2050 50  0001 C CNN
+	1    5250 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1900 5250 1800
+Wire Wire Line
+	5250 1800 5500 1800
+Wire Wire Line
+	5750 1800 5750 2000
+Wire Wire Line
+	5750 2000 5850 2000
+Wire Wire Line
+	5500 1900 5500 1800
+Connection ~ 5500 1800
+Wire Wire Line
+	5500 1800 5750 1800
+Wire Wire Line
+	5250 2200 5250 2250
+Wire Wire Line
+	5250 2250 5500 2250
+Wire Wire Line
+	5500 2250 5500 2200
+Wire Wire Line
+	5500 2250 5750 2250
+Wire Wire Line
+	5750 2250 5750 2100
+Wire Wire Line
+	5750 2100 5850 2100
+Connection ~ 5500 2250
+$Comp
+L stmbl:VPP #PWR04
+U 1 1 5EE16683
+P 5500 1800
+F 0 "#PWR04" H 5500 1650 50  0001 C CNN
+F 1 "VPP" H 5515 1973 50  0000 C CNN
+F 2 "" H 5500 1800 50  0001 C CNN
+F 3 "" H 5500 1800 50  0001 C CNN
+	1    5500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl:GNDPWR #PWR05
+U 1 1 5EE17060
+P 5500 2250
+F 0 "#PWR05" H 5500 2050 50  0001 C CNN
+F 1 "GNDPWR" H 5504 2096 50  0000 C CNN
+F 2 "" H 5500 2200 50  0001 C CNN
+F 3 "" H 5500 2200 50  0001 C CNN
+	1    5500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl:R R2
+U 1 1 5EE1A0B5
+P 4950 2050
+F 0 "R2" H 4880 2004 50  0000 R CNN
+F 1 "10k" H 4880 2095 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4880 2050 50  0001 C CNN
+F 3 "" H 4950 2050 50  0001 C CNN
+	1    4950 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 1800 4950 1800
+Wire Wire Line
+	4950 1800 4950 1900
+Connection ~ 5250 1800
+Wire Wire Line
+	4950 2200 4950 2250
+Wire Wire Line
+	4950 2250 5250 2250
+Connection ~ 5250 2250
+$Comp
+L stmbl:non_plated U2
+U 1 1 5EE248D5
+P 6450 1050
+F 0 "U2" H 6628 1103 60  0000 L CNN
+F 1 "non_plated" H 6628 997 60  0000 L CNN
+F 2 "stmbl:non_plated_3mm" H 6450 1050 60  0001 C CNN
+F 3 "" H 6450 1050 60  0001 C CNN
+	1    6450 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl:non_plated U3
+U 1 1 5EE25175
+P 6950 1050
+F 0 "U3" H 7128 1103 60  0000 L CNN
+F 1 "non_plated" H 7128 997 60  0000 L CNN
+F 2 "stmbl:non_plated_3mm" H 6950 1050 60  0001 C CNN
+F 3 "" H 6950 1050 60  0001 C CNN
+	1    6950 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl:non_plated U4
+U 1 1 5EE2553D
+P 7400 1050
+F 0 "U4" H 7578 1103 60  0000 L CNN
+F 1 "non_plated" H 7578 997 60  0000 L CNN
+F 2 "stmbl:non_plated_3mm" H 7400 1050 60  0001 C CNN
+F 3 "" H 7400 1050 60  0001 C CNN
+	1    7400 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl:non_plated U1
+U 1 1 5EE258CC
+P 6000 1050
+F 0 "U1" H 6178 1103 60  0000 L CNN
+F 1 "non_plated" H 6178 997 60  0000 L CNN
+F 2 "stmbl:non_plated_3mm" H 6000 1050 60  0001 C CNN
+F 3 "" H 6000 1050 60  0001 C CNN
+	1    6000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl:Earth_Protective #PWR0101
+U 1 1 5EE3788E
+P 1050 3200
+F 0 "#PWR0101" H 1300 2950 50  0001 C CNN
+F 1 "Earth_Protective" H 1500 3050 50  0001 C CNN
+F 2 "" H 1050 3100 50  0001 C CNN
+F 3 "" H 1050 3100 50  0001 C CNN
+	1    1050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L stmbl:CONN_01X03 J4
+U 1 1 5EE3ABB5
+P 700 2950
+F 0 "J4" H 618 2625 50  0000 C CNN
+F 1 "CONN_01X03" H 618 2716 50  0000 C CNN
+F 2 "stmbl:RM5.08_1x3" H 700 2950 50  0001 C CNN
+F 3 "" H 700 2950 50  0001 C CNN
+	1    700  2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 3200 1050 3050
+Wire Wire Line
+	1050 2850 900  2850
+Wire Wire Line
+	900  2950 1050 2950
+Connection ~ 1050 2950
+Wire Wire Line
+	1050 2950 1050 2850
+Wire Wire Line
+	900  3050 1050 3050
+Connection ~ 1050 3050
+Wire Wire Line
+	1050 3050 1050 2950
+$Comp
+L Device:D_Bridge_+AA- D2
+U 1 1 5EE0AC44
+P 4050 3150
+F 0 "D2" H 4394 3196 50  0000 L CNN
+F 1 "D_Bridge_+-AA" H 4394 3105 50  0000 L CNN
+F 2 "Diode_THT:Diode_Bridge_Vishay_KBU" H 4050 3150 50  0001 C CNN
+F 3 "~" H 4050 3150 50  0001 C CNN
+	1    4050 3150
+	1    0    0    1   
+$EndComp
+Text Label 3000 2000 0    50   ~ 0
+L_switched
+Wire Wire Line
+	1400 2300 2000 2300
+Wire Wire Line
+	2000 3500 4050 3500
+Wire Wire Line
+	4050 3500 4050 3450
+Wire Wire Line
+	2000 2300 2000 3500
+Wire Wire Line
+	2750 2000 4050 2000
+Wire Wire Line
+	4050 2000 4050 2400
+Wire Wire Line
+	2750 2400 4050 2400
+Connection ~ 4050 2400
+Wire Wire Line
+	4050 2400 4050 2750
+Wire Wire Line
+	2300 2750 2050 2750
+Wire Wire Line
+	2050 2750 2050 2300
+Connection ~ 2050 2200
+Wire Wire Line
+	2600 2750 4050 2750
+Connection ~ 4050 2750
+Wire Wire Line
+	4050 2750 4050 2850
+Wire Wire Line
+	2150 2300 2050 2300
+Connection ~ 2050 2300
+Wire Wire Line
+	2050 2300 2050 2200
+$EndSCHEMATC

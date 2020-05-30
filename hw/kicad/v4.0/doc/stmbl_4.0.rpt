@@ -1,0 +1,201 @@
+** Drc report for C:\Users\Soeren\Documents\GitHub\stmbl\hw\kicad\v4.0\stmbl_4.0.kicad_pcb **
+** Created on  **
+
+** Found 62 DRC errors **
+ErrType(51): Bohrlöcher zu dicht beieinander
+    @(118,000 mm, 82,000 mm): DoKu 0,600 mm [+5V] auf F.Cu - B.Cu
+    @(118,500 mm, 82,000 mm): DoKu 0,600 mm [+5V] auf F.Cu - B.Cu
+ErrType(51): Bohrlöcher zu dicht beieinander
+    @(195,500 mm, 75,250 mm): DoKu 0,600 mm [+12V] auf F.Cu - B.Cu
+    @(195,000 mm, 75,250 mm): DoKu 0,600 mm [+12V] auf F.Cu - B.Cu
+ErrType(51): Bohrlöcher zu dicht beieinander
+    @(195,500 mm, 91,750 mm): DoKu 0,600 mm [+12V] auf F.Cu - B.Cu
+    @(195,000 mm, 91,750 mm): DoKu 0,600 mm [+12V] auf F.Cu - B.Cu
+ErrType(51): Bohrlöcher zu dicht beieinander
+    @(118,500 mm, 70,500 mm): DoKu 0,600 mm [+12V] auf F.Cu - B.Cu
+    @(118,000 mm, 70,500 mm): DoKu 0,600 mm [+12V] auf F.Cu - B.Cu
+ErrType(51): Bohrlöcher zu dicht beieinander
+    @(108,000 mm, 89,000 mm): DoKu 0,600 mm [+5F] auf F.Cu - B.Cu
+    @(107,500 mm, 89,000 mm): DoKu 0,600 mm [+5F] auf F.Cu - B.Cu
+ErrType(7): Durchkontaktierung zu nah an einer Leiterbahn
+    @(108,900 mm, 58,550 mm): DoKu 0,600 mm [GND] auf F.Cu - B.Cu
+    @(108,000 mm, 59,500 mm): Leiterbahn 1,000 mm [+24V] auf F.Cu, Länge: 2,750 mm
+ErrType(4): Leiterbahn zu nah an einem Pad
+    @(161,845 mm, 88,750 mm): Leiterbahn 0,200 mm [Net-(C37-Pad2)] auf F.Cu, Länge: 0,825 mm
+    @(161,845 mm, 88,750 mm): Pad 8 auf U7 von F.Cu und andere
+ErrType(4): Leiterbahn zu nah an einem Pad
+    @(161,845 mm, 89,575 mm): Leiterbahn 0,200 mm [Net-(C37-Pad2)] auf F.Cu, Länge: 4,137 mm
+    @(161,845 mm, 88,750 mm): Pad 8 auf U7 von F.Cu und andere
+ErrType(4): Leiterbahn zu nah an einem Pad
+    @(161,750 mm, 88,655 mm): Leiterbahn 0,250 mm [Net-(C37-Pad2)] auf F.Cu, Länge: 0,134 mm
+    @(161,845 mm, 88,750 mm): Pad 8 auf U7 von F.Cu und andere
+ErrType(4): Leiterbahn zu nah an einem Pad
+    @(161,750 mm, 87,000 mm): Leiterbahn 0,250 mm [Net-(C37-Pad2)] auf F.Cu, Länge: 1,655 mm
+    @(161,845 mm, 88,750 mm): Pad 8 auf U7 von F.Cu und andere
+ErrType(23): Kupferflächen überschneiden sich oder liegen zu dicht beisammen
+    @(122,816 mm, 116,298 mm): Flächenumriss [VPP] auf F.Cu
+    @(108,338 mm, 120,616 mm): Flächenumriss [/hv/back-emf/U] auf F.Cu
+ErrType(23): Kupferflächen überschneiden sich oder liegen zu dicht beisammen
+    @(122,816 mm, 116,298 mm): Flächenumriss [VPP] auf F.Cu
+    @(108,338 mm, 120,616 mm): Flächenumriss [/hv/back-emf/U] auf F.Cu
+ErrType(23): Kupferflächen überschneiden sich oder liegen zu dicht beisammen
+    @(122,816 mm, 116,298 mm): Flächenumriss [VPP] auf F.Cu
+    @(108,338 mm, 120,616 mm): Flächenumriss [/hv/back-emf/U] auf F.Cu
+ErrType(23): Kupferflächen überschneiden sich oder liegen zu dicht beisammen
+    @(128,912 mm, 130,776 mm): Flächenumriss [/hv/back-emf/W] auf F.Cu
+    @(128,250 mm, 135,250 mm): Flächenumriss [/hv/driver/CUH] auf F.Cu
+ErrType(23): Kupferflächen überschneiden sich oder liegen zu dicht beisammen
+    @(128,912 mm, 130,776 mm): Flächenumriss [/hv/back-emf/W] auf F.Cu
+    @(128,250 mm, 135,250 mm): Flächenumriss [/hv/driver/CUH] auf F.Cu
+ErrType(23): Kupferflächen überschneiden sich oder liegen zu dicht beisammen
+    @(122,816 mm, 116,298 mm): Flächenumriss [VPP] auf B.Cu
+    @(108,338 mm, 120,616 mm): Flächenumriss [/hv/back-emf/U] auf B.Cu
+ErrType(23): Kupferflächen überschneiden sich oder liegen zu dicht beisammen
+    @(122,816 mm, 116,298 mm): Flächenumriss [VPP] auf B.Cu
+    @(108,338 mm, 120,616 mm): Flächenumriss [/hv/back-emf/U] auf B.Cu
+ErrType(23): Kupferflächen überschneiden sich oder liegen zu dicht beisammen
+    @(122,816 mm, 116,298 mm): Flächenumriss [VPP] auf B.Cu
+    @(108,338 mm, 120,616 mm): Flächenumriss [/hv/back-emf/U] auf B.Cu
+ErrType(23): Kupferflächen überschneiden sich oder liegen zu dicht beisammen
+    @(122,816 mm, 116,298 mm): Flächenumriss [VPP] auf B.Cu
+    @(108,338 mm, 120,616 mm): Flächenumriss [/hv/back-emf/U] auf B.Cu
+ErrType(23): Kupferflächen überschneiden sich oder liegen zu dicht beisammen
+    @(122,816 mm, 116,298 mm): Flächenumriss [VPP] auf B.Cu
+    @(108,338 mm, 120,616 mm): Flächenumriss [/hv/back-emf/U] auf B.Cu
+ErrType(38): Durchkontaktierung innerhalb einer Sperrfläche
+    @(173,500 mm, 127,250 mm): DoKu 0,600 mm [Net-(T44-Pad1)] auf F.Cu - B.Cu
+    @(174,000 mm, 121,400 mm): Flächenumriss  (Sperrfläche) auf F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(141,000 mm, 64,250 mm): Leiterbahn 0,200 mm [+3V3] auf F.Cu, Länge: 1,000 mm
+    @(140,000 mm, 64,250 mm): Grafik Linie auf JP9 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(141,000 mm, 66,500 mm): Leiterbahn 0,200 mm [Net-(JP9-Pad2)] auf F.Cu, Länge: 1,061 mm
+    @(140,000 mm, 65,750 mm): Grafik Linie auf JP9 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(140,250 mm, 65,750 mm): Leiterbahn 0,200 mm [Net-(JP9-Pad2)] auf F.Cu, Länge: 0,250 mm
+    @(140,000 mm, 65,750 mm): Grafik Linie auf JP9 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(112,000 mm, 92,750 mm): Leiterbahn 0,750 mm [+5F] auf F.Cu, Länge: 1,250 mm
+    @(113,250 mm, 92,750 mm): Grafik Linie auf JP4 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(113,250 mm, 90,500 mm): Leiterbahn 0,750 mm [+5V] auf F.Cu, Länge: 0,750 mm
+    @(113,250 mm, 91,250 mm): Grafik Linie auf JP4 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(113,250 mm, 91,250 mm): Leiterbahn 0,500 mm [+5V] auf F.Cu, Länge: 1,750 mm
+    @(113,250 mm, 91,250 mm): Grafik Linie auf JP4 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(174,000 mm, 112,750 mm): Leiterbahn 0,200 mm [+3.3VP] auf B.Cu, Länge: 1,500 mm
+    @(175,250 mm, 112,750 mm): Grafik Linie auf JP1 von B.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(175,500 mm, 112,750 mm): Leiterbahn 0,200 mm [+3.3VP] auf B.Cu, Länge: 0,000 mm
+    @(175,250 mm, 112,750 mm): Grafik Linie auf JP1 von B.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(177,000 mm, 114,000 mm): Leiterbahn 0,200 mm [Net-(JP1-Pad2)] auf B.Cu, Länge: 1,050 mm
+    @(176,750 mm, 112,750 mm): Grafik Linie auf JP1 von B.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(177,000 mm, 112,950 mm): Leiterbahn 0,200 mm [Net-(JP1-Pad2)] auf B.Cu, Länge: 0,283 mm
+    @(176,750 mm, 112,750 mm): Grafik Linie auf JP1 von B.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(113,250 mm, 97,500 mm): Leiterbahn 0,200 mm [+3V3] auf F.Cu, Länge: 1,750 mm
+    @(113,250 mm, 97,500 mm): Grafik Linie auf JP6 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(113,250 mm, 96,000 mm): Leiterbahn 0,250 mm [+5VA] auf F.Cu, Länge: 1,250 mm
+    @(113,250 mm, 96,000 mm): Grafik Linie auf JP6 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(113,250 mm, 94,500 mm): Leiterbahn 0,500 mm [+5V] auf F.Cu, Länge: 1,412 mm
+    @(113,250 mm, 94,500 mm): Grafik Linie auf JP6 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(113,250 mm, 96,000 mm): Leiterbahn 0,250 mm [+5VA] auf F.Cu, Länge: 1,250 mm
+    @(113,250 mm, 94,500 mm): Grafik Linie auf JP6 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(196,750 mm, 91,750 mm): Leiterbahn 0,500 mm [+12V] auf F.Cu, Länge: 1,250 mm
+    @(196,750 mm, 91,750 mm): Grafik Linie auf JP5 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(196,750 mm, 90,250 mm): Leiterbahn 0,500 mm [Net-(C117-Pad1)] auf F.Cu, Länge: 2,500 mm
+    @(196,750 mm, 90,250 mm): Grafik Linie auf JP5 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(194,550 mm, 88,500 mm): Leiterbahn 0,500 mm [+5F] auf F.Cu, Länge: 1,950 mm
+    @(196,750 mm, 88,750 mm): Grafik Linie auf JP5 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(196,500 mm, 88,500 mm): Leiterbahn 0,500 mm [+5F] auf F.Cu, Länge: 0,354 mm
+    @(196,750 mm, 88,750 mm): Grafik Linie auf JP5 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(196,750 mm, 90,250 mm): Leiterbahn 0,500 mm [Net-(C117-Pad1)] auf F.Cu, Länge: 2,500 mm
+    @(196,750 mm, 88,750 mm): Grafik Linie auf JP5 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(123,000 mm, 63,500 mm): Leiterbahn 0,500 mm [+24V] auf F.Cu, Länge: 1,250 mm
+    @(124,250 mm, 63,500 mm): Grafik Linie auf JP3 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(124,250 mm, 65,000 mm): Leiterbahn 0,500 mm [Net-(C98-Pad1)] auf F.Cu, Länge: 1,450 mm
+    @(124,250 mm, 65,000 mm): Grafik Linie auf JP3 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(124,250 mm, 65,000 mm): Leiterbahn 0,500 mm [Net-(C98-Pad1)] auf F.Cu, Länge: 2,000 mm
+    @(124,250 mm, 65,000 mm): Grafik Linie auf JP3 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(124,250 mm, 66,500 mm): Leiterbahn 0,500 mm [+12V] auf F.Cu, Länge: 3,250 mm
+    @(124,250 mm, 66,500 mm): Grafik Linie auf JP3 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(124,250 mm, 65,000 mm): Leiterbahn 0,500 mm [Net-(C98-Pad1)] auf F.Cu, Länge: 1,450 mm
+    @(124,250 mm, 66,500 mm): Grafik Linie auf JP3 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(124,250 mm, 65,000 mm): Leiterbahn 0,500 mm [Net-(C98-Pad1)] auf F.Cu, Länge: 2,000 mm
+    @(124,250 mm, 66,500 mm): Grafik Linie auf JP3 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(196,750 mm, 75,250 mm): Leiterbahn 0,500 mm [+12V] auf F.Cu, Länge: 1,250 mm
+    @(196,750 mm, 75,250 mm): Grafik Linie auf JP2 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(196,750 mm, 73,750 mm): Leiterbahn 0,500 mm [Net-(C114-Pad1)] auf F.Cu, Länge: 2,500 mm
+    @(196,750 mm, 73,750 mm): Grafik Linie auf JP2 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(196,750 mm, 72,250 mm): Leiterbahn 0,500 mm [+5F] auf F.Cu, Länge: 1,950 mm
+    @(196,750 mm, 72,250 mm): Grafik Linie auf JP2 von F.Cu
+ErrType(41): Leiterbahn zu nah an Kupferelement
+    @(196,750 mm, 73,750 mm): Leiterbahn 0,500 mm [Net-(C114-Pad1)] auf F.Cu, Länge: 2,500 mm
+    @(196,750 mm, 72,250 mm): Grafik Linie auf JP2 von F.Cu
+ErrType(47): Footprint hat ein ungültigen Sperrbereich (keine geschlossene Kontur)
+    @(147,000 mm, 99,750 mm): Footprint P14 auf F.Cu
+ErrType(47): Footprint hat ein ungültigen Sperrbereich (keine geschlossene Kontur)
+    @(126,750 mm, 67,040 mm): Footprint P4 auf B.Cu
+ErrType(45): Footprint Umriss Überschneidung
+    @(152,250 mm, 123,750 mm): Footprint C146 auf F.Cu
+    @(152,280 mm, 124,934 mm): Footprint C42 auf F.Cu
+ErrType(45): Footprint Umriss Überschneidung
+    @(122,000 mm, 50,750 mm): Footprint D20 auf F.Cu
+    @(122,000 mm, 52,250 mm): Footprint R134 auf F.Cu
+ErrType(45): Footprint Umriss Überschneidung
+    @(137,042 mm, 129,700 mm): Footprint R27 auf F.Cu
+    @(137,042 mm, 134,250 mm): Footprint R28 auf F.Cu
+ErrType(45): Footprint Umriss Überschneidung
+    @(134,200 mm, 129,750 mm): Footprint R32 auf F.Cu
+    @(134,200 mm, 134,250 mm): Footprint R33 auf F.Cu
+ErrType(45): Footprint Umriss Überschneidung
+    @(131,358 mm, 129,750 mm): Footprint R51 auf F.Cu
+    @(131,358 mm, 134,250 mm): Footprint R52 auf F.Cu
+ErrType(45): Footprint Umriss Überschneidung
+    @(111,100 mm, 155,000 mm): Footprint C138 auf F.Cu
+    @(111,100 mm, 152,500 mm): Footprint C40 auf F.Cu
+ErrType(45): Footprint Umriss Überschneidung
+    @(172,750 mm, 128,750 mm): Footprint C57 auf F.Cu
+    @(177,750 mm, 124,250 mm): Footprint U25 auf F.Cu
+ErrType(45): Footprint Umriss Überschneidung
+    @(109,850 mm, 155,000 mm): Footprint R7 auf F.Cu
+    @(109,850 mm, 152,500 mm): Footprint R164 auf F.Cu
+ErrType(45): Footprint Umriss Überschneidung
+    @(107,350 mm, 152,250 mm): Footprint Q5 auf F.Cu
+    @(105,850 mm, 150,500 mm): Footprint R167 auf F.Cu
+ErrType(45): Footprint Umriss Überschneidung
+    @(106,500 mm, 62,750 mm): Footprint Q6 auf B.Cu
+    @(107,750 mm, 66,750 mm): Footprint D21 auf B.Cu
+
+** Found 3 unconnected pads **
+ErrType(2): Nicht verbundene Elemente
+    @(192,750 mm, 52,750 mm): Pad 1 auf C17 von F.Cu und andere
+    @(192,170 mm, 67,750 mm): Pad 13 auf J2 von Alle Kupferlagen
+ErrType(2): Nicht verbundene Elemente
+    @(192,170 mm, 84,250 mm): Pad 13 auf J1 von Alle Kupferlagen
+    @(192,170 mm, 67,750 mm): Pad 13 auf J2 von Alle Kupferlagen
+ErrType(2): Nicht verbundene Elemente
+    @(192,170 mm, 100,750 mm): Pad 13 auf J1 von Alle Kupferlagen
+    @(192,170 mm, 84,250 mm): Pad 13 auf J1 von Alle Kupferlagen
+
+** End of Report **

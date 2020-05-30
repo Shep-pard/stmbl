@@ -635,7 +635,7 @@ L stmbl:R R143
 U 1 1 5813C2F5
 P 6150 3100
 F 0 "R143" V 6230 3100 50  0000 C CNN
-F 1 "1.5k" V 6150 3100 50  0000 C CNN
+F 1 "3.9k" V 6150 3100 50  0000 C CNN
 F 2 "stmbl:R_0603" V 6080 3100 30  0001 C CNN
 F 3 "" H 6150 3100 30  0000 C CNN
 F 4 "" H 6150 3100 30  0001 C CNN "InternalName"
@@ -658,7 +658,7 @@ Wire Wire Line
 	6800 3100 6800 3500
 Connection ~ 6800 3500
 Text Notes 4850 2800 0    60   ~ 0
-1.65V * (15k + 1.5k + 1k + 1k)/(1k + 1k) = 15.26V
+1.65V * (15k + 3.9k + 1k + 1k)/(1k + 1k) = 17.24V
 Wire Wire Line
 	2850 6200 3250 6200
 Connection ~ 3500 6200
