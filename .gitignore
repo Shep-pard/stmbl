@@ -79,3 +79,4 @@ stm32f303/inc/commandslist.h
 stm32f303/inc/hal_tbl.h
 stm32f303/src/hal_tbl.c
 toolchain-user.mak
+/Debug/

@@ -1,0 +1,170 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5F008C89
+P 2300 1500
+F 0 "J1" H 2408 1781 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2408 1690 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0210_2x01-1MP_P3.00mm_Horizontal" H 2300 1500 50  0001 C CNN
+F 3 "~" H 2300 1500 50  0001 C CNN
+	1    2300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F009C3D
+P 2350 2100
+F 0 "R1" V 2143 2100 50  0000 C CNN
+F 1 "R" V 2234 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0815_2038Metric" V 2280 2100 50  0001 C CNN
+F 3 "~" H 2350 2100 50  0001 C CNN
+	1    2350 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F00B416
+P 2400 2350
+F 0 "R2" V 2193 2350 50  0000 C CNN
+F 1 "R" V 2284 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0815_2038Metric" V 2330 2350 50  0001 C CNN
+F 3 "~" H 2400 2350 50  0001 C CNN
+	1    2400 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5F00B8FC
+P 2750 2450
+F 0 "R3" V 2543 2450 50  0000 C CNN
+F 1 "R" V 2634 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_1020_2550Metric_Pad1.33x5.20mm_HandSolder" V 2680 2450 50  0001 C CNN
+F 3 "~" H 2750 2450 50  0001 C CNN
+	1    2750 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5F00BA3F
+P 3100 2050
+F 0 "R5" V 2893 2050 50  0000 C CNN
+F 1 "R" V 2984 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_1020_2550Metric" V 3030 2050 50  0001 C CNN
+F 3 "~" H 3100 2050 50  0001 C CNN
+	1    3100 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5F00BAE4
+P 3600 1250
+F 0 "R6" V 3393 1250 50  0000 C CNN
+F 1 "R" V 3484 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1806_4516Metric" V 3530 1250 50  0001 C CNN
+F 3 "~" H 3600 1250 50  0001 C CNN
+	1    3600 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F00BB2F
+P 3050 1500
+F 0 "R4" V 2843 1500 50  0000 C CNN
+F 1 "R" V 2934 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1218_3246Metric_Pad1.22x4.75mm_HandSolder" V 2980 1500 50  0001 C CNN
+F 3 "~" H 3050 1500 50  0001 C CNN
+	1    3050 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 5F0192C4
+P 4300 1500
+F 0 "J2" H 4408 1781 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 4408 1690 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0210_2x01-1MP_P3.00mm_Horizontal" H 4300 1500 50  0001 C CNN
+F 3 "~" H 4300 1500 50  0001 C CNN
+	1    4300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5F0192CA
+P 4350 2100
+F 0 "R7" V 4143 2100 50  0000 C CNN
+F 1 "R" V 4234 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_1020_2550Metric" V 4280 2100 50  0001 C CNN
+F 3 "~" H 4350 2100 50  0001 C CNN
+	1    4350 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5F0192D0
+P 4400 2350
+F 0 "R8" V 4193 2350 50  0000 C CNN
+F 1 "R" V 4284 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4330 2350 50  0001 C CNN
+F 3 "~" H 4400 2350 50  0001 C CNN
+	1    4400 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5F0192D6
+P 4750 2450
+F 0 "R9" V 4543 2450 50  0000 C CNN
+F 1 "R" V 4634 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 2450 50  0001 C CNN
+F 3 "~" H 4750 2450 50  0001 C CNN
+	1    4750 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5F0192DC
+P 5100 2050
+F 0 "R11" V 4893 2050 50  0000 C CNN
+F 1 "R" V 4984 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_1806_4516Metric" V 5030 2050 50  0001 C CNN
+F 3 "~" H 5100 2050 50  0001 C CNN
+	1    5100 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5F0192E2
+P 5600 1250
+F 0 "R12" V 5393 1250 50  0000 C CNN
+F 1 "R" V 5484 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1218_3246Metric_Pad1.22x4.75mm_HandSolder" V 5530 1250 50  0001 C CNN
+F 3 "~" H 5600 1250 50  0001 C CNN
+	1    5600 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5F0192E8
+P 5050 1500
+F 0 "R10" V 4843 1500 50  0000 C CNN
+F 1 "R" V 4934 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1020_2550Metric" V 4980 1500 50  0001 C CNN
+F 3 "~" H 5050 1500 50  0001 C CNN
+	1    5050 1500
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
